@@ -11,9 +11,31 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: pkg.description },
+      { hid: 'og:title', name: 'og:title', content: 'Bright World' },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: 'Meta data content'
+      },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:url', name: 'og:url', content: 'https://nuxtjs.org' },
+      { name: 'og:image', content: 'https://i.imgur.com/gRR2pPe.jpg' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Raleway'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Roboto'
+      }
+    ],
+    script: [
+      { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
+    ]
   },
 
   /*
