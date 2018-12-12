@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import sectionHeader from '~/components/sectionHeader.vue'
+import sectionHeader from '~/components/AppMainHeader.vue'
 
 export default {
   components: {
-    sectionHeader
+    AppMainHeader
   }
 }
 </script>
