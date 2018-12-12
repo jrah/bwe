@@ -1,55 +1,56 @@
 <template>
-  <div>
+  <div class="site-canvas">
+    <div class="container flex items-center justify-between">
+      <app-logo/>
+      <app-navbar/>
+    </div>
     <nuxt/>
+    <app-footer/>
   </div>
 </template>
 
-<style>
+<script>
+import appNavbar from '~/components/Navbar.vue'
+import appFooter from '~/components/Footer.vue'
+import appLogo from '~/components/Logo.vue'
+
+export default {
+  components: {
+    appFooter,
+    appNavbar,
+    appLogo
+  }
+}
+</script>
+
+<style lang="scss">
+@import '~assets/scss/mixins';
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+  @apply font-sans font-normal text-black leading-normal;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-raleway;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+p,
+blockquote,
+nav,
+button,
+a {
+  @apply font-roboto;
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+.container {
+  @apply px-8;
+  @include mq(ns) {
+    @apply px-16;
+  }
+  @extend %mwc;
 }
 </style>
