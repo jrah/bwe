@@ -24,7 +24,7 @@ View the full documentation at https://tailwindcss.com.
 |
 */
 
-// let defaultConfig = require('tailwindcss/defaultConfig')()
+let defaultConfig = require('tailwindcss/defaultConfig')()
 
 /*
 |-------------------------------------------------------------------------------
@@ -125,7 +125,14 @@ let colors = {
   pink: '#f66d9b',
   'pink-light': '#fa7ea8',
   'pink-lighter': '#ffbbca',
-  'pink-lightest': '#ffebef'
+  'pink-lightest': '#ffebef',
+
+  'navy-dark': '#2B3A5B',
+  navy: '#25324E',
+  'navy-light': '#3c475f',
+  'navy-lighter': '#49639A',
+
+  brown: '#F6D9CA'
 }
 
 module.exports = {
@@ -164,12 +171,10 @@ module.exports = {
   */
 
   screens: {
-    sm: '576px',
-    md: '768px',
-    lg: '992px',
-    xl: '1200px'
+    ns: { min: '30em' },
+    m: { min: '30em', max: '64em' },
+    l: { min: '64em' }
   },
-
   /*
   |-----------------------------------------------------------------------------
   | Fonts                                    https://tailwindcss.com/docs/fonts
@@ -190,16 +195,10 @@ module.exports = {
 
   fonts: {
     sans: [
+      'Raleway',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
-      'Segoe UI',
-      'Roboto',
-      'Oxygen',
-      'Ubuntu',
-      'Cantarell',
-      'Fira Sans',
-      'Droid Sans',
       'Helvetica Neue',
       'sans-serif'
     ],
@@ -222,6 +221,22 @@ module.exports = {
       'Liberation Mono',
       'Courier New',
       'monospace'
+    ],
+    raleway: [
+      '"Raleway"',
+      'system-ui',
+      'BlinkMacSystemFont',
+      '-apple-system',
+      'Helvetica Neue',
+      'sans-serif'
+    ],
+    roboto: [
+      '"Roboto"',
+      'system-ui',
+      'BlinkMacSystemFont',
+      '-apple-system',
+      'Helvetica Neue',
+      'sans-serif'
     ]
   },
 
@@ -823,6 +838,7 @@ module.exports = {
   |   - responsive
   |   - hover
   |   - focus
+  |   - focus-within
   |   - active
   |   - group-hover
   |
@@ -867,6 +883,7 @@ module.exports = {
     shadows: ['responsive', 'hover', 'focus'],
     svgFill: [],
     svgStroke: [],
+    tableLayout: ['responsive'],
     textAlign: ['responsive'],
     textColors: ['responsive', 'hover', 'focus'],
     textSizes: ['responsive'],
@@ -895,10 +912,10 @@ module.exports = {
   */
 
   plugins: [
-    require('tailwindcss/plugins/container')({
-      // center: true,
-      // padding: '1rem',
-    })
+    // require('tailwindcss/plugins/container')({
+    //   // center: true,
+    //   // padding: '1rem'
+    // })
   ],
 
   /*
