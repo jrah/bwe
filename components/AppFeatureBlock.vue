@@ -1,20 +1,44 @@
 <template lang="html">
-  <section class="py-12 bg-grey-lightest text-navy">
-    <div class="container">
-      <div class="max-w-md m-auto text-center">
-        <h1 class="mt-0 mb-2 font-bold text-4xl leading-tight">{{ home.splash.title }}</h1>
-        <p class="leading-normal mt-0">{{ home.splash.text }}</p>
+  <section>
+    <div class="container py-10 text-navy">
+      <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
+      <div class="m:flex l:flex justify-around">
+
+        <div
+          v-for="(block, index) in componentLoop"
+          :key="index"
+          :name=" '' + index "
+          class="text-center ns:w-1/4">
+          <div class="w-24 m-auto">
+            {{ block.icon }}
+          </div>
+          <h2 class="leading-tight text-lg mt-1 mb-1">{{ block.heading }}</h2>
+          <p class="leading-normal mt-0 mb-6">{{ block.paragraph }}</p>
+        </div>
+
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import home from '~/content/home.json'
 export default {
-  data() {
-    return {
-      home
+  props: {
+    componentTitle: {
+      type: String,
+      required: true
+    },
+    componentParagraph: {
+      type: String,
+      required: true
+    },
+    componentHeading: {
+      type: String,
+      required: true
+    },
+    componentLoop: {
+      type: String,
+      required: true
     }
   }
 }
