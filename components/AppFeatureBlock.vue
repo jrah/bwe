@@ -9,11 +9,11 @@
           :key="index"
           :name=" '' + index "
           class="text-center ns:w-1/4">
-          <div
-            v-if="block.icon"
-            class="w-24 m-auto">
-            {{ block.icon }}
-          </div>
+          <font-awesome-icon
+            :icon="block.icon"
+            class="ml-2"
+            size="4x"
+          />
           <h2
             v-if="block.heading"
             class="leading-tight text-lg mt-1 mb-1">{{ block.heading }}</h2>
