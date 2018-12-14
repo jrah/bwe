@@ -9,11 +9,17 @@
           :key="index"
           :name=" '' + index "
           class="text-center ns:w-1/4">
-          <div class="w-24 m-auto">
+          <div
+            v-if="block.icon"
+            class="w-24 m-auto">
             {{ block.icon }}
           </div>
-          <h2 class="leading-tight text-lg mt-1 mb-1">{{ block.heading }}</h2>
-          <p class="leading-normal mt-0 mb-6">{{ block.paragraph }}</p>
+          <h2
+            v-if="block.heading"
+            class="leading-tight text-lg mt-1 mb-1">{{ block.heading }}</h2>
+          <p
+            v-if="block.paragraph"
+            class="leading-normal mt-0 mb-6">{{ block.paragraph }}</p>
         </div>
 
       </div>
@@ -28,16 +34,8 @@ export default {
       type: String,
       required: true
     },
-    componentParagraph: {
-      type: String,
-      required: true
-    },
-    componentHeading: {
-      type: String,
-      required: true
-    },
     componentLoop: {
-      type: String,
+      type: Array,
       required: true
     }
   }
