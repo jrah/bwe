@@ -51,17 +51,17 @@
     "title": "Our Values",
     "block": [
       {
-        "icon": "head",
+        "icon": "chalkboard-teacher",
         "heading": "Exquisite taste",
         "paragraph": "Enjoy the finest quality loose leaf teas, freshly sourced from the best tea experts in the UK"
       },
       {
-        "icon": "leaf",
+        "icon": "university",
         "heading": "Seasonality",
         "paragraph": "As the seasons change, each of our tea boxes comes with a new unique flavour."
       },
       {
-        "icon": "hand",
+        "icon": "home",
         "heading": "Bio-degradable",
         "paragraph": "When it comes to our tea, environmental sustainability is a crucial part of our process. "
       }
