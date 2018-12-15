@@ -34,6 +34,17 @@
         </div>
 
       </div>
+
+      <div
+        v-for="(i, index) in componentLink"
+        :key="index"
+        class="mt-10 flex justify-center"
+      >
+        <a
+          :href="i.href"
+          class="no-underline bg-purple hover:bg-purple-dark text-white font-bold py-2 px-4 rounded">{{ i.text }}</a>
+      </div>
+
     </div>
   </section>
 </template>
@@ -53,6 +64,11 @@ export default {
     componentLoop: {
       type: Array,
       required: true
+    },
+    componentLink: {
+      type: Array,
+      required: false,
+      default: () => []
     }
   }
 }
