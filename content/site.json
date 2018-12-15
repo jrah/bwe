@@ -13,11 +13,37 @@
   "nav": [
     {
       "text": "facebook",
-      "href": "www.facebook.com/diversiteabox"
+      "content": [
+        {
+          "text": "instagram",
+          "href": "www.instagram.com/diversiteabox"
+        },
+        {
+          "text": "instagram",
+          "href": "www.instagram.com/diversiteabox"
+        },
+        {
+          "text": "instagram",
+          "href": "www.instagram.com/diversiteabox"
+        }
+      ]
     },
     {
-      "text": "instagram",
-      "href": "www.instagram.com/diversiteabox"
+      "text": "facebook",
+      "content": [
+        {
+          "text": "instagram",
+          "href": "www.instagram.com/diversiteabox"
+        },
+        {
+          "text": "instagram",
+          "href": "www.instagram.com/diversiteabox"
+        },
+        {
+          "text": "instagram",
+          "href": "www.instagram.com/diversiteabox"
+        }
+      ]
     }
   ]
 }
