@@ -46,9 +46,11 @@
     ]
   },
   "title": "Find your perfect tea",
-  "image": "/images/uploads/nik-macmillan-577478-unsplash2-optimised.jpg",
+  "image_state": "static",
+  "image": "/images/uploads/mikito-tateisi-333584-unsplash.jpg",
   "features": {
     "title": "Our Values",
+    "type": "Font Awesome",
     "block": [
       {
         "icon": "chalkboard-teacher",
@@ -64,6 +66,33 @@
         "icon": "home",
         "heading": "Bio-degradable",
         "paragraph": "When it comes to our tea, environmental sustainability is a crucial part of our process. "
+      }
+    ]
+  },
+  "logos": {
+    "title": "Trusted By",
+    "type": "Custom",
+    "link": [
+      {
+        "href": "http://diversitea.co",
+        "text": "DiversiTea"
+      }
+    ],
+    "block": [
+      {
+        "icon": "logo"
+      },
+      {
+        "icon": "logo"
+      },
+      {
+        "icon": "logo"
+      },
+      {
+        "icon": "logo"
+      },
+      {
+        "icon": "logo"
       }
     ]
   },
