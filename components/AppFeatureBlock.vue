@@ -9,11 +9,22 @@
           :key="index"
           :name=" '' + index "
           class="text-center ns:w-1/4">
-          <font-awesome-icon
-            :icon="block.icon"
-            class="ml-2"
-            size="4x"
-          />
+          <div
+            v-if="componentIcon == 'Font Awesome'"
+          >
+            <font-awesome-icon
+              :icon="block.icon"
+              class="ml-2"
+              size="4x"
+            />
+
+          </div>
+          <div v-else>
+            <img
+              :src="require(`~/assets/images/placeholder/${block.icon}.svg`)"
+              :alt="block.icon">
+          </div>
+
           <h2
             v-if="block.heading"
             class="leading-tight text-lg mt-1 mb-1">{{ block.heading }}</h2>
@@ -33,6 +44,11 @@ export default {
     componentTitle: {
       type: String,
       required: true
+    },
+    componentIcon: {
+      type: String,
+      required: false,
+      default: 'Font Awesome'
     },
     componentLoop: {
       type: Array,
