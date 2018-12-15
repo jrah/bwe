@@ -1,6 +1,12 @@
 <template>
+  <!-- add link to bottom of trusted by -->
   <div>
     <app-main-header/>
+    <app-feature-block
+      :component-link="home.logos.link"
+      :component-icon="home.logos.type"
+      :component-title="home.logos.title"
+      :component-loop="home.logos.block"/>
     <app-splash
       :component-paragraph="home.splash.text"
       :component-title="home.splash.title"/>
@@ -10,6 +16,7 @@
     <app-feature-grid
       :component-title="home.features.title"
       :component-loop="home.features.block"/>
+
   </div>
 </template>
 
