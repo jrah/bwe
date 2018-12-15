@@ -16,7 +16,8 @@
     <app-feature-grid
       :component-title="home.features.title"
       :component-loop="home.features.block"/>
-
+    <app-testimonial
+      :component-loop="home.testimonial"/>
   </div>
 </template>
 
@@ -27,13 +28,15 @@ import AppMainHeader from '~/components/AppMainHeader.vue'
 import AppSplash from '~/components/AppSplash.vue'
 import AppFeatureBlock from '~/components/AppFeatureBlock.vue'
 import AppFeatureGrid from '~/components/AppFeatureGrid.vue'
+import AppTestimonial from '~/components/AppTestimonial.vue'
 
 export default {
   components: {
     AppMainHeader,
     AppSplash,
     AppFeatureBlock,
-    AppFeatureGrid
+    AppFeatureGrid,
+    AppTestimonial
   },
   data() {
     return {
