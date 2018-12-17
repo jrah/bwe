@@ -1,6 +1,8 @@
 <template>
   <footer>
 
+    <hr class="border-grey-light border-solid border-2">
+
     <div class="container p-8">
       <div class="flex py-5">
         <ul class="list-reset flex justify-between ns:pr-24 ns:w-4/5">
