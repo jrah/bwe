@@ -29,7 +29,7 @@
             <div
               v-if="block.icon"
               class="absolute pin-b pin-r">
-              <div class="-m-8 relative z-10">
+              <div class="ns:-m-8 p-3 relative z-10">
                 <font-awesome-icon
                   :icon="block.icon"
                   class="ml-2"
