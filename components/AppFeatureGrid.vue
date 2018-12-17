@@ -17,7 +17,7 @@
             <p
               v-if="block.paragraph"
               class="leading-normal mt-0 mb-6">{{ block.paragraph }}</p>
-            <div class="absolute pin-b py-4">
+            <div class="ns:absolute pin-b py-4">
               <button class="bg-purple-light hover:bg-purple text-grey-lightest font-bold py-4 px-4 rounded inline-flex items-center border-b-4 border-purple-dark">
                 <span>Read more</span>
                 <font-awesome-icon
@@ -32,7 +32,7 @@
               <div class="ns:-m-8 p-3 relative z-10">
                 <font-awesome-icon
                   :icon="block.icon"
-                  class="ml-2"
+                  class="ml-2 featureGrid-icon"
                   size="8x"
                 />
               </div>
@@ -72,13 +72,21 @@ export default {
     height: 100%;
     width: 100%;
     &-inner {
-      min-height: 24rem;
-      min-width: 24rem;
+      @include mq(ns) {
+        min-height: 24rem;
+      }
       padding: 2rem;
     }
-    @include mq(ns) {
+    @include mq(l) {
       width: calc(100% / 2);
       height: calc(100% / 2);
+    }
+  }
+  .featureGrid-icon {
+    display: none !important;
+
+    @include mq(ns) {
+      display: inline-block !important;
     }
   }
 }
