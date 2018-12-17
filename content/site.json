@@ -1,47 +1,100 @@
 {
-  "title": "DiversiTea",
+  "title": "Bright World",
+  "contact_information": [
+    {
+      "postal": "10 Downing Street, London, SW1A 2AA",
+      "phone": "+044777",
+      "email": "email@email.com"
+    }
+  ],
   "social": [
     {
       "type": "facebook",
-      "href": "www.facebook.com/diversiteabox"
+      "href": "http://facebook.com/diversiteabox"
+    },
+    {
+      "type": "weixin",
+      "href": "http://instagram.com/diversiteabox"
     },
     {
       "type": "instagram",
-      "href": "www.instagram.com/diversiteabox"
+      "href": "http://instagram.com/diversiteabox"
+    },
+    {
+      "type": "linkedin",
+      "href": "http://instagram.com/diversiteabox"
+    },
+    {
+      "type": "twitter",
+      "href": "http://instagram.com/diversiteabox"
     }
   ],
   "nav": [
     {
-      "text": "facebook",
+      "text": "Category",
       "content": [
         {
-          "text": "instagram",
-          "href": "www.instagram.com/diversiteabox"
+          "text": "Link",
+          "href": "#"
         },
         {
-          "text": "instagram",
-          "href": "www.instagram.com/diversiteabox"
+          "text": "Link",
+          "href": "#"
         },
         {
-          "text": "instagram",
-          "href": "www.instagram.com/diversiteabox"
+          "text": "Link",
+          "href": "#"
         }
       ]
     },
     {
-      "text": "facebook",
+      "text": "Category",
       "content": [
         {
-          "text": "instagram",
-          "href": "www.instagram.com/diversiteabox"
+          "text": "Link",
+          "href": "#"
         },
         {
-          "text": "instagram",
-          "href": "www.instagram.com/diversiteabox"
+          "text": "Link",
+          "href": "#"
         },
         {
-          "text": "instagram",
-          "href": "www.instagram.com/diversiteabox"
+          "text": "Link",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "text": "Category",
+      "content": [
+        {
+          "text": "Link",
+          "href": "#"
+        },
+        {
+          "text": "Link",
+          "href": "#"
+        },
+        {
+          "text": "Link",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "text": "Category",
+      "content": [
+        {
+          "text": "Link",
+          "href": "#"
+        },
+        {
+          "text": "Link",
+          "href": "#"
+        },
+        {
+          "text": "Link",
+          "href": "#"
         }
       ]
     }
