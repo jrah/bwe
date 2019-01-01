@@ -4,13 +4,13 @@
     <hr class="border-grey-light border-solid border-2">
 
     <div class="container p-8">
-      <div class="flex py-5">
-        <ul class="list-reset flex justify-between ns:pr-24 ns:w-4/5">
+      <div class="l:flex justify-between pb-5">
+        <ul class="list-reset flex flex-wrap justify-between l:w-3/5 pb-5">
           <li
             v-for="(item, index) in site.nav"
             :key="index"
             :name=" '' + index "
-            class="">
+            class="pb-5 pr-4">
             <h2 class="text-grey-darkest font-black text-lg uppercase mb-2">{{ item.text }}</h2>
             <ul class="list-reset">
               <li
@@ -24,9 +24,9 @@
             </ul>
           </li>
         </ul>
-        <div class="ns:w-1/5">
+        <div class="l:w-1/5">
           <span class="text-grey-darkest text-lg font-bold">{{ site.title }}</span>
-          <ul class="list-reset flex justify-between">
+          <ul class="list-reset flex justify-between pb-5">
             <li
               v-for="(item, index) in site.contact_information"
               :key="index"
@@ -37,21 +37,21 @@
 
             </li>
           </ul>
+          <div class="list-reset flex">
+            <a
+              v-for="(icon, index) in site.social"
+              :key="index"
+              :href="icon.href"
+              :name=" '' + index ">
+              <font-awesome-icon
+                :icon="['fab', icon.type]"
+                :style="{color: 'black'}"
+                class="mr-4 hover:blue pointer"
+                size="2x"
+              />
+            </a>
+          </div>
         </div>
-      </div>
-      <div class="list-reset flex justify-end">
-        <a
-          v-for="(icon, index) in site.social"
-          :key="index"
-          :href="icon.href"
-          :name=" '' + index ">
-          <font-awesome-icon
-            :icon="['fab', icon.type]"
-            :style="{color: 'black'}"
-            class="m-2 hover:blue pointer"
-            size="2x"
-          />
-        </a>
       </div>
     </div>
   </footer>
