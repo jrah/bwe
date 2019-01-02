@@ -2,24 +2,27 @@
   <section>
     <div class="container py-10 text-navy">
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
-      <div class="m:flex l:flex justify-around">
+      <div class="m:flex l:flex flex-wrap justify-around">
 
         <div
           v-for="(block, index) in componentLoop"
           :key="index"
           :name=" '' + index "
-          class="text-center ns:w-1/4">
+          :class="componentFlexItem"
+          class="text-center px-4">
           <div
             v-if="componentIcon == 'Font Awesome'"
+            class="mb-4"
           >
             <font-awesome-icon
               :icon="block.icon"
-              class="ml-2"
               size="4x"
             />
 
           </div>
-          <div v-else>
+          <div
+            v-else
+            class="p-4">
             <img
               :src="require(`~/assets/images/placeholder/${block.icon}.svg`)"
               :alt="block.icon">
@@ -55,6 +58,11 @@ export default {
     componentTitle: {
       type: String,
       required: true
+    },
+    componentFlexItem: {
+      type: String,
+      required: false,
+      default: 'flex-auto'
     },
     componentIcon: {
       type: String,
