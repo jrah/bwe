@@ -1,6 +1,6 @@
 <template>
   <div class="site-canvas">
-    <div class="container flex items-center justify-between py-3">
+    <div class="container relative py-3">
       <app-logo/>
       <app-navbar/>
     </div>

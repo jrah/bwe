@@ -35,7 +35,10 @@ module.exports = {
     ],
     script: [
       { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
-    ]
+    ],
+    bodyAttrs: {
+      class: 'site'
+    }
   },
 
   /*
