@@ -1,7 +1,7 @@
 <template>
   <a
     href="/"
-    class="no-underline flex items-center text-grey-darkest">
+    class="no-underline flex items-center text-grey-darkest container">
     <img
       src="~assets/images/logo.png"
       class="w-24 text-white z-50"
