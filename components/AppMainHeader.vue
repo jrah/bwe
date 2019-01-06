@@ -12,9 +12,12 @@
           <p
             v-if="home.intro"
             class="m-0 leading-normal">{{ home.intro }}</p>
-            <!-- <a
-              href="#"
-              class="no-underline inline-block shadow bg-navy hover:bg-navy-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer my-3">Click Here</a> -->
+          <a
+            href="#"
+            class="no-underline inline-block shadow bg-purple hover:bg-purple-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer my-3">Click Here</a>
+          <a
+            href="#"
+            class="no-underline inline-block shadow bg-purple hover:bg-purple-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer my-3">Or Here</a>
         </div>
       </div>
       <div
