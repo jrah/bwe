@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="footer">
 
     <hr class="border-grey-light border-solid border-2">
 
@@ -72,4 +72,12 @@ export default {
 </script>
 
 <style lang="scss">
+.footer {
+  background: transparent;
+  overflow: hidden;
+  padding-top: 20%;
+  margin-top: -20%;
+  pointer-events: none;
+  @apply bg-navy;
+}
 </style>
