@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <span
       :class="{ isOpenToggle: isOpen }"
       class="cursor-pointer absolute pin-r pin-y flex items-center mr-16 z-50"

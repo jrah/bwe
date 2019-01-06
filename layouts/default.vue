@@ -1,6 +1,6 @@
 <template>
   <div class="site-canvas">
-    <div class="container relative py-3">
+    <div class="relative py-3">
       <app-logo/>
       <app-navbar/>
     </div>
