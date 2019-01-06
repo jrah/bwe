@@ -77,7 +77,6 @@ export default {
   overflow: hidden;
   padding-top: 20%;
   margin-top: -20%;
-  pointer-events: none;
   @apply bg-navy;
 }
 </style>
