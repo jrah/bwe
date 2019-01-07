@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
 
-    <hr class="border-grey-light border-solid border-2">
+    <!-- <hr class="border-grey-light border-solid border-2"> -->
 
     <div class="container p-8">
       <div class="l:flex justify-between pb-5">
@@ -77,6 +77,6 @@ export default {
   overflow: hidden;
   padding-top: 20%;
   margin-top: -20%;
-  @apply bg-navy;
+  @apply bg-grey-lightest;
 }
 </style>
