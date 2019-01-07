@@ -2,7 +2,7 @@
   <section>
     <div class="container py-10">
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
-      <div class="max-w-md flex mx-auto justify-center">
+      <div class="flex mx-auto justify-center">
         <badger-accordion ref="myAccordion">
           <badger-accordion-item
             v-for="(block, index) in componentLoop"
@@ -13,12 +13,33 @@
             <p slot="content">{{ block.paragraph }}</p>
           </badger-accordion-item>
         </badger-accordion>
+        <div
+          v-if="componentSideActive === true"
+          class="p-4 w-1/4 bg-grey-lightest">
+          <h2>Contact</h2>
+          <div
+            v-for="(block, index) in componentSide"
+            :key="index">
+            <div class="flex items-center">
+              <font-awesome-icon
+                :icon="['fab', block.icon]"
+                size="2x"
+                class="mr-2"
+              />
+              <a
+                href="#"
+                class="text-black no-underline">{{ block.paragraph }}</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
   </section>
 </template>
 
 <script>
+// console.log(componentSide)
 export default {
   props: {
     componentTitle: {
@@ -28,6 +49,16 @@ export default {
     componentLoop: {
       type: Array,
       required: true
+    },
+    componentSideActive: {
+      type: Boolean,
+      required: false,
+      default: false
+    },
+    componentSide: {
+      type: Array,
+      required: false,
+      default: () => []
     }
   }
 }
@@ -75,9 +106,9 @@ export default {
 
 .badger-accordion__panel {
   max-height: 75vh !important;
+  transition: max-height ease-in-out 0.5s;
   overflow: hidden;
 
-  // scss-lint:disable ImportantRule
   &.-ba-is-hidden {
     max-height: 0 !important;
   }
