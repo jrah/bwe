@@ -15,8 +15,8 @@
         </badger-accordion>
         <div
           v-if="componentSideActive === true"
-          class="p-4 w-1/4 bg-grey-lightest">
-          <h2>Contact</h2>
+          class="px-4 py-2 w-1/4">
+          <h2 class="mb-6">Contact</h2>
           <div
             v-for="(block, index) in componentSide"
             :key="index">
@@ -95,7 +95,7 @@ export default {
   }
   &:hover,
   &.-ba-is-active {
-    @apply bg-purple;
+    @apply bg-navy;
     @apply text-white;
   }
 }

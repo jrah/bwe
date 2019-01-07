@@ -18,7 +18,7 @@
               v-if="block.paragraph"
               class="leading-normal mt-0 mb-6">{{ block.paragraph }}</p>
             <div class="ns:absolute pin-b py-4">
-              <button class="bg-purple-light hover:bg-purple text-grey-lightest font-bold py-4 px-4 rounded inline-flex items-center border-b-4 border-purple-dark">
+              <button class="bg-navy-light hover:bg-navy text-grey-lightest font-bold py-4 px-4 rounded inline-flex items-center border-b-4 border-navy-dark">
                 <span>Read more</span>
                 <font-awesome-icon
                   icon="arrow-right"

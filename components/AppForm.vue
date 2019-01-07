@@ -23,7 +23,7 @@
         type="text"
         name="name"
         data-vv-name="name"
-        class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-purple">
+        class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-navy">
       <p
         v-show="errors.has('name')"
         class="bg-red white f7 w-100 pa2 fw8 db mv0">{{ errors.first('name') }}</p>
@@ -39,7 +39,7 @@
         type="text"
         data-vv-as="email"
         name="email"
-        class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-purple ns:1/2">
+        class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-navy ns:1/2">
       <p
         v-show="errors.has('email')"
         class="bg-red white f7 w-100 pa2 fw8 db mv0">{{ errors.first('email') }}</p>
@@ -54,7 +54,7 @@
         v-validate="'required'"
         name="message"
         data-vv-as="message"
-        class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full h-32 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-purple"
+        class="bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full h-32 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-navy"
         style="vertical-align: top;"/>
       <p
         v-show="errors.has('message')"
@@ -63,7 +63,7 @@
 
     <div class="flex justify-end">
       <input
-        class="shadow bg-purple hover:bg-purple-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer"
+        class="shadow bg-navy hover:bg-navy-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer"
         type="submit"
         value="Submit"
         @click="submit">

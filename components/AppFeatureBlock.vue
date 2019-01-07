@@ -45,7 +45,7 @@
       >
         <a
           :href="i.href"
-          class="no-underline bg-purple hover:bg-purple-dark text-white font-bold py-2 px-4 rounded">{{ i.text }}</a>
+          class="no-underline bg-navy hover:bg-navy-dark text-white font-bold py-2 px-4 rounded">{{ i.text }}</a>
       </div>
 
     </div>
