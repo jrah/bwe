@@ -1566,6 +1566,11 @@ babylon@7.0.0-beta.44:
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.44.tgz#89159e15e6e30c5096e22d738d8c0af8a0e8ca1d"
   integrity sha512-5Hlm13BJVAioCHpImtFqNOF2H3ieTOHd0fmFGMxOJ9jgeFqeAwsv3u5P5cR7CSeFrkgHsT19DgFJkHV0/Mcd8g==
 
+badger-accordion@^1.1.2:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/badger-accordion/-/badger-accordion-1.1.4.tgz#487ee7f401811bb4cdaaf74d26d1dbba7ca5f6f3"
+  integrity sha512-GzQ2LrbCePWhM44dmIJYCoLlgpXRGAr+LYPAaGbWoIuaiFwLldWYg6uck2HpKE57h5y85TY3aa4rKWDMsqNwrA==
+
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
@@ -8210,6 +8215,14 @@ vue-agile@^0.3.7:
   integrity sha512-rs+Dl4Yb2UpkPwq8AqOS+cRV7KznRNnGw5mgPg1Nj74l+E8z2SXuilnzQqOhmyHTwIarU6RXPLz34yAlfSZ9og==
   dependencies:
     vue "2.*.*"
+
+vue-badger-accordion@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/vue-badger-accordion/-/vue-badger-accordion-1.0.8.tgz#3d4beefdb5a3e95247735fb1660cc26cb6ca91ba"
+  integrity sha512-0/i8681lAz/g7aTA2AsELVlzESAtCTuSqXw4RhE2WyCrfr/xRzIkxx/aJM6ykjgiNKBmvhXeVZ8HK0G+27Alsg==
+  dependencies:
+    badger-accordion "^1.1.2"
+    vue "^2.5.17"
 
 vue-carousel@^0.16.1:
   version "0.16.1"

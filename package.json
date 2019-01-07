@@ -23,6 +23,7 @@
     "nuxt": "^2.0.0",
     "sass-loader": "^7.1.0",
     "vue-agile": "^0.3.7",
+    "vue-badger-accordion": "^1.0.8",
     "vue-carousel": "^0.16.1"
   },
   "devDependencies": {
