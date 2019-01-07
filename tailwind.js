@@ -128,7 +128,7 @@ let colors = {
   'pink-lightest': '#ffebef',
 
   'navy-dark': '#2B3A5B',
-  navy: '#25324E',
+  navy: '#2b3a5b',
   'navy-light': '#3c475f',
   'navy-lighter': '#49639A',
 
