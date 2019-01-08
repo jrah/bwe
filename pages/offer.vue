@@ -15,9 +15,9 @@
       :component-loop="home.features.block"/>
     <app-testimonial
       :component-loop="home.testimonial"/>
-    <app-accordion
+    <!-- <app-accordion
       :component-title="home.features.title"
-      :component-loop="home.features.block"/>
+      :component-loop="home.features.block"/> -->
     <app-feature-blog
       :component-title="home.features.title"
       :component-loop="home.features.block"/>
@@ -33,7 +33,7 @@ import AppFeatureBlock from '~/components/AppFeatureBlock.vue'
 import AppFeatureGrid from '~/components/AppFeatureGrid.vue'
 import AppTestimonial from '~/components/AppTestimonial.vue'
 import AppFeatureBlog from '~/components/AppFeatureBlog.vue'
-import AppAccordion from '~/components/AppAccordion.vue'
+// import AppAccordion from '~/components/AppAccordion.vue'
 import AppRoadMap from '~/components/AppRoadMap.vue'
 
 export default {
@@ -44,7 +44,7 @@ export default {
     AppFeatureGrid,
     AppTestimonial,
     AppFeatureBlog,
-    AppAccordion,
+    // AppAccordion,
     AppRoadMap
   },
   data() {
