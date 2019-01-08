@@ -22,7 +22,7 @@
             :key="index">
             <div class="flex items-center">
               <font-awesome-icon
-                :icon="['fab', block.icon]"
+                :icon="block.icon"
                 size="2x"
                 class="mr-2"
               />
