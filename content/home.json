@@ -14,10 +14,10 @@
     ]
   },
   "splash": {
-    "title": "How DiversiTea Works",
-    "text": "Each month DiversiTea selects two different teas, packs them into our environmentally friendly package and delivers them directly to your doorstep."
+    "title": "Lorem ipsum dolor sit amet.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ab, ad dolorum nam numquam voluptatibus."
   },
-  "intro": "Let us find the right tea for you based on your personal taste",
+  "intro": "Lorem ipsum dolor sit amet, consectetur.",
   "icon_splash": {
     "title": "Have any questions?",
     "text": "Please feel free to email us below",
@@ -49,7 +49,7 @@
       }
     ]
   },
-  "title": "Find your perfect tea",
+  "title": "Lorem ipsum dolor sit.",
   "image_state": "static",
   "image": "/images/uploads/mikito-tateisi-333584-unsplash.jpg",
   "features": {
@@ -58,39 +58,18 @@
     "block": [
       {
         "icon": "chalkboard-teacher",
-        "heading": "Exquisite taste",
-        "paragraph": "Enjoy the finest quality loose leaf teas, freshly sourced from the best tea experts in the UK"
+        "heading": "Lorem ipsum.",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
       },
       {
         "icon": "university",
-        "heading": "Seasonality",
-        "paragraph": "As the seasons change, each of our tea boxes comes with a new unique flavour."
+        "heading": "Lorem.",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque necessitatibus quis provident eligendi tempore vel natus possimus, reiciendis amet molestias!"
       },
       {
         "icon": "home",
-        "heading": "Bio-degradable",
-        "paragraph": "When it comes to our tea, environmental sustainability is a crucial part of our process. "
-      }
-    ]
-  },
-  "features": {
-    "title": "Our Values",
-    "type": "Font Awesome",
-    "block": [
-      {
-        "icon": "chalkboard-teacher",
-        "heading": "Exquisite taste",
-        "paragraph": "Enjoy the finest quality loose leaf teas, freshly sourced from the best tea experts in the UK"
-      },
-      {
-        "icon": "university",
-        "heading": "Seasonality",
-        "paragraph": "As the seasons change, each of our tea boxes comes with a new unique flavour."
-      },
-      {
-        "icon": "home",
-        "heading": "Bio-degradable",
-        "paragraph": "When it comes to our tea, environmental sustainability is a crucial part of our process. "
+        "heading": "Lorem ipsum dolor.",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sit eveniet fugiat?"
       }
     ]
   },
@@ -99,11 +78,11 @@
     "block": [
       {
         "heading": "Become a host family",
-        "paragraph": "Enjoy the finest quality loose leaf teas, freshly sourced from the best tea experts in the UK"
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum sed nisi deleniti."
       },
       {
         "heading": "Agents",
-        "paragraph": "As the seasons change, each of our tea boxes comes with a new unique flavour."
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem alias ad quidem, culpa, dolorum ut!"
       }
     ]
   },
@@ -136,16 +115,16 @@
   },
   "testimonial": [
     {
-      "quote": "It was incredible. Shockingly so and I am still coming down from it...",
-      "author": "Emma Peel"
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, nemo.",
+      "author": "Customer"
     },
     {
-      "quote": "Absolutely stunning service & really lovely tea \n",
-      "author": "Lesley Pyne"
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore corporis illum sunt unde.",
+      "author": "Customer"
     },
     {
-      "quote": "Always easy to deal with and the tea is so good",
-      "author": "Debbie Harkness"
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "author": "Customer"
     }
   ]
 }
