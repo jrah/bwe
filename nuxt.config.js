@@ -59,8 +59,8 @@ module.exports = {
   */
   plugins: [
     '~/plugins/fontawesome.js',
-    { src: '~/plugins/vue-carousel.js' },
-    { src: '~/plugins/vue-badger-accordion.js' }
+    { src: '~/plugins/vue-carousel.js', ssr: false },
+    { src: '~/plugins/vue-badger-accordion.js', ssr: false }
   ],
 
   /*
