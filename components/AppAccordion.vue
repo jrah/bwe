@@ -3,16 +3,18 @@
     <div class="container py-10">
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
       <div class="flex mx-auto justify-center">
-        <badger-accordion ref="myAccordion">
-          <badger-accordion-item
-            v-for="(block, index) in componentLoop"
-            :key="index">
-            <h1
-              slot="header"
-              class="text-xl">{{ block.heading }}</h1>
-            <p slot="content">{{ block.paragraph }}</p>
-          </badger-accordion-item>
-        </badger-accordion>
+        <no-ssr>
+          <badger-accordion ref="myAccordion">
+            <badger-accordion-item
+              v-for="(block, index) in componentLoop"
+              :key="index">
+              <h1
+                slot="header"
+                class="text-xl">{{ block.heading }}</h1>
+              <p slot="content">{{ block.paragraph }}</p>
+            </badger-accordion-item>
+          </badger-accordion>
+        </no-ssr>
         <div
           v-if="componentSideActive === true"
           class="px-4 py-2 w-1/4">
