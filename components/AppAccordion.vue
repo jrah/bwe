@@ -4,6 +4,15 @@
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
       <div class="flex mx-auto justify-center flex-col ns:flex-row">
         <no-ssr>
+          <div
+            slot="placeholder"
+            class="justify-center items-center flex">
+            <font-awesome-icon
+              icon="spinner"
+              spin
+              size="5x"
+            />
+          </div>
           <badger-accordion
             ref="myAccordion"
             :icons="false">
@@ -16,21 +25,21 @@
               <p slot="content">{{ block.paragraph }}</p>
             </badger-accordion-item>
           </badger-accordion>
-        </no-ssr>
-        <div
-          v-if="componentSideActive === true"
-          class="ns:ml-4 mt-4 ns:mt-0 px-4 py-2 ns:w-1/4 bg-grey-lighter">
-          <h2 class="ns:mb-6 text-lg">Have any other questions?</h2>
           <div
-            v-for="(block, index) in componentSide"
-            :key="index">
-            <div class="flex items-center">
-              <a
-                :href="block.href"
-                class="no-underline inline-block shadow bg-navy hover:bg-navy-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer my-3">{{ block.text }}</a>
+            v-if="componentSideActive === true"
+            class="ns:ml-4 mt-4 ns:mt-0 px-4 py-2 ns:w-1/4 bg-grey-lighter">
+            <h2 class="ns:mb-6 text-lg">Have any other questions?</h2>
+            <div
+              v-for="(block, index) in componentSide"
+              :key="index">
+              <div class="flex items-center">
+                <a
+                  :href="block.href"
+                  class="no-underline inline-block shadow bg-navy hover:bg-navy-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer my-3">{{ block.text }}</a>
+              </div>
             </div>
           </div>
-        </div>
+        </no-ssr>
       </div>
     </div>
 
