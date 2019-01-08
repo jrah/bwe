@@ -10,7 +10,11 @@
           class="flex-1">
           <div
             class="px-4 py-3 relative flex flex-col ns:flex-row items-center">
-            <div class="text">
+            <div class="text-center">
+              <font-awesome-icon
+                :icon="block.icon"
+                size="3x"
+              />
               <h2 class="font-bold">{{ block.heading }}</h2>
               <p class="block sm:inline">{{ block.paragraph }}</p>
             </div>
