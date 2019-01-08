@@ -8,7 +8,7 @@
           v-for="(block, index) in componentLoop"
           :key="index"
           :name=" '' + index "
-          class="featureGrid-item relative bg-white p-6"
+          class="featureGrid-item relative bg-white"
         >
           <div class="border-grey-lighter border-solid border-2 rounded-sm shadow featureGrid-item-inner relative">
             <h2
@@ -66,11 +66,15 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-content: stretch;
   &-item {
     height: 100%;
     width: 100%;
+    padding-bottom: 3.5rem;
+    &:last-child {
+      padding-bottom: 0;
+    }
     &-inner {
       @include mq(ns) {
         min-height: 24rem;
@@ -78,7 +82,7 @@ export default {
       padding: 2rem;
     }
     @include mq(l) {
-      width: calc(100% / 2);
+      width: calc(95% / 2);
       height: calc(100% / 2);
     }
   }

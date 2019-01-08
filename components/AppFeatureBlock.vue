@@ -2,7 +2,7 @@
   <section>
     <div class="container py-10 text-navy">
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
-      <div class="m:flex l:flex flex-wrap justify-around">
+      <div class="m:flex l:flex flex-wrap justify-between">
 
         <div
           v-for="(block, index) in componentLoop"
@@ -21,8 +21,7 @@
 
           </div>
           <div
-            v-else
-            class="p-4">
+            v-else>
             <img
               :src="require(`~/assets/images/placeholder/${block.icon}.svg`)"
               :alt="block.icon">

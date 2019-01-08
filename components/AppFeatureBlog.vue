@@ -2,7 +2,7 @@
   <section>
     <div class="container py-10">
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
-      <div class="ns:flex justify-around">
+      <div class="ns:flex justify-between">
 
         <div
           v-for="(block, index) in componentLoop"
