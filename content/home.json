@@ -4,8 +4,12 @@
     "text": "Contact text",
     "block": [
       {
-        "icon": "facebook",
-        "paragraph": "Facebook text paragraph"
+        "icon": "fab-facebook",
+        "paragraph": "Facebook"
+      },
+      {
+        "icon": "envelope-square",
+        "paragraph": "Email"
       }
     ]
   },
