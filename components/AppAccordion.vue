@@ -2,7 +2,7 @@
   <section>
     <div class="container py-10">
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
-      <div class="flex mx-auto justify-center">
+      <div class="flex mx-auto justify-center flex-col ns:flex-row">
         <no-ssr>
           <badger-accordion
             ref="myAccordion"
