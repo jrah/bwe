@@ -31,18 +31,18 @@
   ],
   "nav": [
     {
-      "text": "Category",
+      "text": "About Bright World",
       "content": [
         {
-          "text": "Link",
+          "text": "More about the company",
           "href": "#"
         },
         {
-          "text": "Link",
+          "text": "Head Office team",
           "href": "#"
         },
         {
-          "text": "Link",
+          "text": "Bright World Buddy team",
           "href": "#"
         }
       ]
