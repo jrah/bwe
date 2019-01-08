@@ -77,6 +77,6 @@ export default {
   overflow: hidden;
   padding-top: 20%;
   margin-top: -20%;
-  @apply bg-grey-lightest;
+  @apply bg-grey-light;
 }
 </style>
