@@ -21,7 +21,9 @@
     "cross-env": "^5.2.0",
     "node-sass": "^4.11.0",
     "nuxt": "^2.0.0",
+    "nuxt-validate": "^0.1.2",
     "sass-loader": "^7.1.0",
+    "vee-validate": "^2.1.5",
     "vue-agile": "^0.3.7",
     "vue-badger-accordion": "^1.0.8",
     "vue-carousel": "^0.16.1"
