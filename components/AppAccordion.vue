@@ -4,33 +4,30 @@
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
       <div class="flex mx-auto justify-center">
         <no-ssr>
-          <badger-accordion ref="myAccordion">
+          <badger-accordion
+            ref="myAccordion"
+            :icons="false">
             <badger-accordion-item
               v-for="(block, index) in componentLoop"
               :key="index">
-              <h1
+              <h2
                 slot="header"
-                class="text-xl">{{ block.heading }}</h1>
+                class="text-lg">{{ block.heading }}</h2>
               <p slot="content">{{ block.paragraph }}</p>
             </badger-accordion-item>
           </badger-accordion>
         </no-ssr>
         <div
           v-if="componentSideActive === true"
-          class="px-4 py-2 w-1/4">
-          <h2 class="mb-6">Contact</h2>
+          class="ml-4 px-4 py-2 w-1/4 bg-grey-lighter">
+          <h2 class="mb-6 text-lg">Have any other questions?</h2>
           <div
             v-for="(block, index) in componentSide"
             :key="index">
             <div class="flex items-center">
-              <font-awesome-icon
-                :icon="block.icon"
-                size="2x"
-                class="mr-2"
-              />
               <a
-                href="#"
-                class="text-black no-underline">{{ block.paragraph }}</a>
+                :href="block.href"
+                class="no-underline inline-block shadow bg-navy hover:bg-navy-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer my-3">{{ block.text }}</a>
             </div>
           </div>
         </div>
@@ -70,11 +67,12 @@ export default {
 .component-badger-accordion {
   .badger-accordion-item {
     cursor: pointer;
-    &:first-child .js-badger-accordion-header {
-      @apply rounded-t;
+    @apply pb-4;
+    &:last-child {
+      padding: 0;
     }
-    &:last-child .js-badger-accordion-header {
-      @apply rounded-b;
+    .js-badger-accordion-header {
+      @apply rounded-t;
     }
   }
   .badger-toggle-indicator {
@@ -82,28 +80,27 @@ export default {
   }
 }
 
-.js-badger-accordion-panel-inner {
-  cursor: text;
+.badger-accordion-toggle {
+  @apply px-6;
+  @apply py-3;
 }
 
 .js-badger-accordion-header {
-  @apply bg-grey-lightest;
-  @apply px-4;
-  @apply border-grey-lighter;
+  @apply bg-grey-lighter;
+  @apply border-black;
   @apply border-solid;
-  @apply border-b;
-  &:last-child {
-    @apply border-none;
-  }
   &:hover,
   &.-ba-is-active {
-    @apply bg-navy;
+    @apply bg-grey-darker;
     @apply text-white;
+    transition: background-color ease-in-out 0.1s;
   }
 }
 
 .js-badger-accordion-panel-inner {
   @apply p-4;
+  cursor: text;
+  @apply bg-grey-lightest;
 }
 
 .badger-accordion__panel {
