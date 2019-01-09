@@ -14,7 +14,19 @@
       <div
         :class="{ isOpen: isOpen }"
         class="hidden">
-        <ul class="list-reset flex justify-around items-center h-full container">
+        <ul class="container list-reset justify-between pin-important">
+          <li class="mb-2">
+            <a
+              href="#"
+              class="text-grey-darkest font-black text-lg no-underline hover:text-grey uppercase">About Bright World</a>
+          </li>
+          <li class="mb-2">
+            <a
+              href="#"
+              class="text-grey-darkest font-black text-lg no-underline hover:text-grey uppercase">Policies</a>
+          </li>
+        </ul>
+        <ul class="list-reset flex justify-between items-center h-full container">
           <li
             v-for="(item, index) in site.nav"
             :key="index"
@@ -59,7 +71,6 @@ export default {
     toggleNav() {
       this.isOpen = !this.isOpen
       document.querySelector('.site').classList.toggle('position-fixed')
-      document.querySelector('.site').classList.toggle('position-fixed')
 
       // document.querySelector('header').classList.toggle('h-screen')
     }
@@ -82,7 +93,7 @@ export default {
   height: 100vh;
   @apply bg-white;
   &Toggle {
-    margin-left: 1rem;
+    padding-right: 0.95rem;
   }
 }
 
@@ -91,5 +102,10 @@ export default {
   position: relative;
   overflow: hidden;
   @apply bg-white;
+}
+
+.pin-important {
+  position: absolute;
+  top: 1.5em;
 }
 </style>
