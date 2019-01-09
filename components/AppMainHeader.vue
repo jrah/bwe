@@ -8,16 +8,20 @@
         <div class="text-white m:w-3/5 l:w-2/5">
           <h1
             v-if="home.title"
-            class="mt-0 f1 mb-2 font-bold text-5xl leading-tight">{{ home.title }}</h1>
+            class="mt-0 f1 mb-6 font-bold text-4xl leading-tight">{{ home.title }}</h1>
           <p
             v-if="home.intro"
-            class="m-0 leading-normal">{{ home.intro }}</p>
-          <a
-            href="#"
-            class="no-underline inline-block shadow bg-navy hover:bg-navy-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer my-3">Click Here</a>
-          <a
-            href="#"
-            class="no-underline inline-block shadow bg-navy hover:bg-navy-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded cursor-pointer my-3">Or Here</a>
+            class="mb-6 leading-normal">{{ home.intro }}</p>
+          <form
+            id="signup"
+            class="bg-grey-light h-16 flex justify-stretch my-4 p-2 rounded">
+            <input
+              class="bg-grey-lighter mr-4 appearance-none flex-grow border-2 h-full border-grey-lighter rounded py-2 px-4 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-navy"
+              placeholder="Enter your email"
+              type="email"
+              required="">
+            <button class="bg-navy-light hover:bg-navy text-grey-lightest font-bold py-4 px-4 rounded inline-flex items-center border-b-4 border-navy-dark">Get Started</button>
+          </form>
         </div>
       </div>
       <div
