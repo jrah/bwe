@@ -1,7 +1,6 @@
 <template lang="html">
-  <section>
+  <section :class="'bg-'+componentBackgroundColor">
     <div
-      :class="'bg-'+componentBackgroundColor"
       class="container py-10">
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
       <div class="m:flex l:flex flex-wrap justify-between">
