@@ -2,7 +2,7 @@
   <div>
     <span
       :class="{ isOpenToggle: isOpen }"
-      class="cursor-pointer absolute pin-r pin-y flex items-center mr-16 z-50"
+      class="cursor-pointer relative z-50"
       @click="toggleNav()">
       <font-awesome-icon
         icon="bars"
@@ -20,12 +20,13 @@
             :key="index"
             :name=" '' + index "
             class="">
-            <h2 class="text-grey-darkest font-black text-lg uppercase mb-2">{{ item.text }}</h2>
+            <h2 class="text-grey-darkest font-black text-lg uppercase mb-4">{{ item.text }}</h2>
             <ul class="list-reset">
               <li
                 v-for="(inner, index) in item.content"
                 :key="index"
-                :name=" '' + index ">
+                :name=" '' + index "
+                class="mb-1">
                 <a
                   :href="inner.href"
                   class="text-grey-darker no-underline hover:text-grey"> {{ inner.text }}</a>
@@ -58,6 +59,8 @@ export default {
     toggleNav() {
       this.isOpen = !this.isOpen
       document.querySelector('.site').classList.toggle('position-fixed')
+      document.querySelector('.site').classList.toggle('position-fixed')
+
       // document.querySelector('header').classList.toggle('h-screen')
     }
   }
@@ -78,6 +81,9 @@ export default {
   z-index: 40;
   height: 100vh;
   @apply bg-white;
+  &Toggle {
+    margin-left: 1rem;
+  }
 }
 
 .position-fixed {
