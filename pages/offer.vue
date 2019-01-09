@@ -19,6 +19,9 @@
       :component-loop="home.features.block"/>
     <app-testimonial
       :component-loop="home.testimonial"/>
+    <app-comparison-table
+      :component-title="offer.comparison.title"
+      :component-loop="offer.comparison.block"/>
     <app-accordion
       :component-level="2"
       :component-title="home.features.title"
@@ -41,6 +44,7 @@ import AppTestimonial from '~/components/AppTestimonial.vue'
 import AppFeatureBlog from '~/components/AppFeatureBlog.vue'
 import AppAccordion from '~/components/AppAccordion.vue'
 import AppRoadMap from '~/components/AppRoadMap.vue'
+import AppComparisonTable from '~/components/AppComparisonTable.vue'
 
 export default {
   components: {
@@ -51,7 +55,8 @@ export default {
     AppTestimonial,
     AppFeatureBlog,
     AppAccordion,
-    AppRoadMap
+    AppRoadMap,
+    AppComparisonTable
   },
   data() {
     return {

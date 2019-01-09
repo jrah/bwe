@@ -2,5 +2,52 @@
   "title": "Lorem ipsum dolor sit.",
   "intro": "Lorem ipsum dolor sit amet, consectetur.",
   "image_state": "static",
-  "image": "/images/uploads/mikito-tateisi-333584-unsplash.jpg"
+  "image": "/images/uploads/mikito-tateisi-333584-unsplash.jpg",
+  "comparison": {
+    "title": "Lorem ipsum.",
+    "block": [
+      {
+        "title": "Lorem ipsum dolor.",
+        "meta": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero iure fugiat distinctio, repellat veniam aperiam error.",
+        "link": "Call to action",
+        "loop": [
+          {
+            "paragraph": "Lorem ipsum dolor.",
+            "icon": "check"
+          },
+          {
+            "paragraph": "Lorem ipsum dolor.",
+            "icon": "check"
+          },
+          {
+            "paragraph": "Lorem ipsum dolor.",
+            "icon": "check"
+          },
+          {
+            "paragraph": "Lorem ipsum dolor.",
+            "icon": "check"
+          }
+        ]
+      },
+      {
+        "title": "Lorem ipsum.",
+        "link": "Call to action",
+        "meta": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae nobis fugit nulla vitae, accusamus sed aliquid!",
+        "loop": [
+          {
+            "paragraph": "Lorem ipsum dolor.",
+            "icon": "check"
+          },
+          {
+            "paragraph": "Lorem ipsum dolor.",
+            "icon": "check"
+          },
+          {
+            "paragraph": "Lorem ipsum dolor.",
+            "icon": "check"
+          }
+        ]
+      }
+    ]
+  }
 }
