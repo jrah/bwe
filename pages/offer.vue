@@ -2,9 +2,9 @@
   <!-- add link to bottom of trusted by -->
   <div>
     <app-main-header
-      :component-image="home.image"
-      :component-paragraph="home.intro"
-      :component-title="home.title"/>
+      :component-image="offer.image"
+      :component-paragraph="offer.intro"
+      :component-title="offer.title"/>
     <app-road-map
       :component-title="home.features.title"
       :component-loop="home.features.block"/>
