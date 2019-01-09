@@ -8,7 +8,7 @@
     </div>
     <nuxt/>
     <app-footer/>
-    <div class="fixed pin-b max-w-sm mx-auto z-50">
+    <div class="fixed pin-b pin-x max-w-sm mx-auto z-50">
       <div class="text-center py-4 lg:px-4 flex">
         <div
           class="p-2 rounded bg-indigo-darker items-center text-indigo-lightest leading-none lg:rounded-full flex lg:inline-flex"
