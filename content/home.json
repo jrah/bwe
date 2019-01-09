@@ -73,10 +73,12 @@
     "title": "Actions",
     "block": [
       {
+        "icon": "child",
         "heading": "Become a host family",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum sed nisi deleniti."
       },
       {
+        "icon": "user",
         "heading": "Agents",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem alias ad quidem, culpa, dolorum ut!"
       }
