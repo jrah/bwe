@@ -1,0 +1,10 @@
+{
+  "title": "Lorem ipsum dolor sit.",
+  "intro": "Lorem ipsum dolor sit amet, consectetur.",
+  "image_state": "static",
+  "image": "/images/uploads/0c3a0830-extended.jpg",
+  "splash": {
+    "title": "Lorem ipsum dolor sit amet.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ab, ad dolorum nam numquam voluptatibus."
+  }
+}

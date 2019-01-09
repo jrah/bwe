@@ -1,8 +1,14 @@
 <template>
-  <!-- add link to bottom of trusted by -->
-  <div>
+  <div class="bg-grey-lightest">
+    <app-main-header
+      :component-image="contact.image"
+      :component-paragraph="contact.intro"
+      :component-title="contact.title"/>
+    <app-splash
+      :component-paragraph="contact.intro"
+      :component-title="contact.title"/>
     <div class="relative bg-white py-12 flex container">
-      <app-form class="w-3/4"/>
+      <app-form class="w-3/4 relative"/>
 
       <div class="w-1/4 p-6">
         <span class="text-grey-darkest text-lg font-bold">{{ site.title }}</span>
@@ -38,20 +44,22 @@
 </template>
 
 <script>
-import home from '~/content/home.json'
+import contact from '~/content/contact.json'
 import site from '~/content/site.json'
 
 import AppMainHeader from '~/components/AppMainHeader.vue'
 import AppForm from '~/components/AppForm.vue'
+import AppSplash from '~/components/AppSplash.vue'
 
 export default {
   components: {
     AppMainHeader,
-    AppForm
+    AppForm,
+    AppSplash
   },
   data() {
     return {
-      home,
+      contact,
       site: site,
       icons: site.social
     }
