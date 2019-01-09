@@ -1,6 +1,6 @@
 <template lang="html">
   <section>
-    <div class="container py-10 text-navy">
+    <div class="container py-10">
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
       <div class="featureGrid">
 
