@@ -1,6 +1,8 @@
 <template lang="html">
   <section>
-    <div class="container py-10">
+    <div
+      :class="'bg-'+componentBackgroundColor"
+      class="container py-10">
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
       <div class="m:flex l:flex flex-wrap justify-between">
 
@@ -67,6 +69,11 @@ export default {
       type: String,
       required: false,
       default: 'Font Awesome'
+    },
+    componentBackgroundColor: {
+      type: String,
+      required: false,
+      default: ''
     },
     componentLoop: {
       type: Array,

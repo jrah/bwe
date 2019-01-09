@@ -7,10 +7,8 @@
       :component-icon="home.logos.type"
       :component-title="home.logos.title"
       :component-loop="home.logos.block"/>
-    <app-splash
-      :component-paragraph="home.splash.text"
-      :component-title="home.splash.title"/>
     <app-feature-block
+      :component-background-color="'grey-lightest'"
       :component-flex-item="'flex-1'"
       :component-title="home.features.title"
       :component-loop="home.features.block"/>
