@@ -10,7 +10,7 @@
     <div class="relative bg-white py-12 flex container">
       <app-form class="w-3/4 relative"/>
 
-      <div class="w-1/4 p-6">
+      <div class="w-1/4 py-6 pl-16">
         <span class="text-grey-darkest text-lg font-bold">{{ site.title }}</span>
         <ul class="list-reset flex justify-between pb-5">
           <li
