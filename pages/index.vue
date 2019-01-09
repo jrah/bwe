@@ -1,7 +1,11 @@
 <template>
   <!-- add link to bottom of trusted by -->
   <div>
-    <app-main-header/>
+    <app-main-header
+      :component-image="home.image"
+      :component-form="true"
+      :component-paragraph="home.intro"
+      :component-title="home.title"/>
     <app-feature-block
       :component-link="home.logos.link"
       :component-icon="home.logos.type"

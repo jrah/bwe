@@ -2,17 +2,18 @@
   <div>
 
     <div
-      :style="{'background-image' : 'url('+home.image+')'}"
+      :style="{'background-image' : 'url('+componentImage+')'}"
       class="bg-cover bg-center py-6 relative bg-navy">
       <div class="container py-32 relative z-10">
         <div class="text-white m:w-3/5 l:w-2/5">
           <h1
-            v-if="home.title"
-            class="mt-0 f1 mb-6 font-bold text-4xl leading-tight">{{ home.title }}</h1>
+            v-if="componentTitle"
+            class="mt-0 f1 mb-6 font-bold text-4xl leading-tight">{{ componentTitle }}</h1>
           <p
-            v-if="home.intro"
-            class="mb-6 text-white leading-normal">{{ home.intro }}</p>
+            v-if="componentParagraph"
+            class="mb-6 text-white leading-normal">{{ componentParagraph }}</p>
           <form
+            v-if="componentForm == true"
             id="signup"
             class="bg-grey-light h-16 flex justify-stretch my-4 p-2 rounded">
             <input
@@ -33,12 +34,24 @@
 </template>
 
 <script>
-import home from '~/content/home.json'
-
 export default {
-  data() {
-    return {
-      home
+  props: {
+    componentTitle: {
+      type: String,
+      required: true
+    },
+    componentImage: {
+      type: String,
+      required: true
+    },
+    componentParagraph: {
+      type: String,
+      required: true
+    },
+    componentForm: {
+      type: Boolean,
+      required: false,
+      default: false
     }
   }
 }

@@ -1,7 +1,10 @@
 <template>
   <!-- add link to bottom of trusted by -->
   <div>
-    <app-main-header/>
+    <app-main-header
+      :component-image="home.image"
+      :component-paragraph="home.intro"
+      :component-title="home.title"/>
     <app-road-map
       :component-title="home.features.title"
       :component-loop="home.features.block"/>
@@ -26,6 +29,7 @@
 
 <script>
 import home from '~/content/home.json'
+import offer from '~/content/offer.json'
 
 import AppMainHeader from '~/components/AppMainHeader.vue'
 import AppSplash from '~/components/AppSplash.vue'
@@ -49,7 +53,8 @@ export default {
   },
   data() {
     return {
-      home
+      home,
+      offer
     }
   }
 }
