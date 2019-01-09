@@ -10,7 +10,7 @@
           class="flex-1">
           <div
             class="px-4 py-3 relative flex flex-col ns:flex-row items-center">
-            <div class="text-center">
+            <div class="text-center px-4">
               <font-awesome-icon
                 :icon="block.icon"
                 size="3x"
@@ -21,7 +21,7 @@
 
             <span
               v-if="index !== componentLoop.length - 1"
-              class="px-4 py-3">
+              class="absolute pin-r">
               <font-awesome-icon
                 icon="arrow-right"
                 size="2x"
