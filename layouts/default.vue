@@ -1,6 +1,8 @@
 <template>
   <div class="site-canvas">
-    <div class="relative py-3 flex justify-between items-center container">
+    <div 
+      id="header" 
+      class="relative py-3 flex justify-between items-center container">
       <app-logo/>
       <app-navbar/>
     </div>

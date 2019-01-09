@@ -70,8 +70,13 @@ export default {
     closeNav() {},
     toggleNav() {
       this.isOpen = !this.isOpen
+      const header = document.querySelector('#header')
       document.querySelector('.site').classList.toggle('position-fixed')
-
+      if (header.classList.contains('container')) {
+        document.querySelector('#header').classList.remove('container')
+      } else {
+        document.querySelector('#header').classList.add('container')
+      }
       // document.querySelector('header').classList.toggle('h-screen')
     }
   }
@@ -93,7 +98,8 @@ export default {
   height: 100vh;
   @apply bg-white;
   &Toggle {
-    padding-right: 0.95rem;
+    padding-right: 4rem;
+    max-width: 72em;
   }
 }
 
