@@ -22,7 +22,21 @@
               <h2
                 slot="header"
                 class="text-lg">{{ block.heading }}</h2>
-              <p slot="content">{{ block.paragraph }}</p>
+              <div
+                slot="content">
+                <p
+                  v-if="ComponentLevel != 2"
+                  class="p-4">{{ block.paragraph }}</p>
+                <div v-else>
+                  <div
+                    v-for="(block, index) in componentLoop"
+                    :key="index">
+                    <a
+                      href="#"
+                      class="no-underline text-lg p-4 block hover:bg-grey-light">{{ block.paragraph }}</a>
+                  </div>
+                </div>
+              </div>
             </badger-accordion-item>
           </badger-accordion>
           <div
@@ -67,6 +81,11 @@ export default {
       type: Array,
       required: false,
       default: () => []
+    },
+    ComponentLevel: {
+      type: Number,
+      required: false,
+      default: 2
     }
   }
 }
@@ -109,7 +128,7 @@ export default {
 }
 
 .js-badger-accordion-panel-inner {
-  @apply p-4;
+  // @apply p-4;
   cursor: text;
   @apply bg-grey-lightest;
 }

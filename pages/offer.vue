@@ -12,6 +12,7 @@
       :component-paragraph="home.splash.text"
       :component-title="home.splash.title"/>
     <app-accordion
+      :component-level="1"
       :component-side-active="true"
       :component-side="home.contact.block"
       :component-title="home.features.title"
@@ -19,6 +20,7 @@
     <app-testimonial
       :component-loop="home.testimonial"/>
     <app-accordion
+      :component-level="2"
       :component-title="home.features.title"
       :component-loop="home.features.block"/>
     <app-feature-blog
