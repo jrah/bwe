@@ -11,7 +11,7 @@
             class="mt-0 f1 mb-6 font-bold text-4xl leading-tight">{{ home.title }}</h1>
           <p
             v-if="home.intro"
-            class="mb-6 leading-normal">{{ home.intro }}</p>
+            class="mb-6 text-white leading-normal">{{ home.intro }}</p>
           <form
             id="signup"
             class="bg-grey-light h-16 flex justify-stretch my-4 p-2 rounded">
