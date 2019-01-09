@@ -23,7 +23,7 @@
             <div class="px-6 py-4 absolute pin-b">
 
               <button class="bg-navy-light hover:bg-navy text-grey-lightest font-bold py-2 px-2 rounded inline-flex items-center border-b-4 border-navy-dark">
-                <span>Read more</span>
+                <span>Call to action</span>
                 <font-awesome-icon
                   icon="arrow-right"
                   class="ml-2"
