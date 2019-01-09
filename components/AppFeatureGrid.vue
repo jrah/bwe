@@ -29,10 +29,10 @@
             <div
               v-if="block.icon"
               class="absolute pin-b pin-r">
-              <div class="ns:-m-8 p-3 relative z-10">
+              <div class="ns:-m-8 p-3 relative z-10 text-grey">
                 <font-awesome-icon
                   :icon="block.icon"
-                  class="ml-2 featureGrid-icon"
+                  class="ml-2 featureGrid-icon fill-current"
                   size="8x"
                 />
               </div>
