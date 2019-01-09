@@ -29,7 +29,7 @@
 
           <h2
             v-if="block.heading"
-            class="leading-tight text-lg mt-1 mb-1">{{ block.heading }}</h2>
+            class="leading-tight text-lg my-3">{{ block.heading }}</h2>
           <p
             v-if="block.paragraph"
             class="leading-normal mt-0 mb-6">{{ block.paragraph }}</p>

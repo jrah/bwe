@@ -15,7 +15,7 @@
                 :icon="block.icon"
                 size="3x"
               />
-              <h2 class="font-bold">{{ block.heading }}</h2>
+              <h2 class="leading-tight text-lg my-3">{{ block.heading }}</h2>
               <p class="block sm:inline">{{ block.paragraph }}</p>
             </div>
 
