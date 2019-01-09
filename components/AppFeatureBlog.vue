@@ -2,32 +2,35 @@
   <section>
     <div class="container py-10">
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
-      <div class="ns:flex justify-between">
+      <div class="ns:flex justify-between flex-wrap">
 
         <div
           v-for="(block, index) in componentLoop"
           :key="index"
-          class="ns:w-1/4 rounded overflow-hidden shadow-lg relative pb-16 mb-16 ns:mb-0 bg-white">
-          <img
-            class="w-full"
-            src="https://tailwindcss.com/img/card-top.jpg"
-            alt="Sunset in the mountains">
-          <div class="px-6 py-4">
-            <h1 class="font-bold text-xl mb-2">{{ block.heading }}</h1>
-            <p class="text-grey-darker text-base">
-              {{ block.paragraph }}
-            </p>
-          </div>
-          <div class="px-6 py-4 absolute pin-b">
 
-            <button class="bg-navy-light hover:bg-navy text-grey-lightest font-bold py-2 px-2 rounded inline-flex items-center border-b-4 border-navy-dark">
-              <span>Read more</span>
-              <font-awesome-icon
-                icon="arrow-right"
-                class="ml-2"
-              />
-            </button>
+          class="w-full m:w-1/2 l:w-1/3 p-6">
+          <div class="rounded overflow-hidden shadow-lg relative pb-16 mb-16 ns:mb-0 bg-white">
+            <img
+              class="w-full"
+              src="https://tailwindcss.com/img/card-top.jpg"
+              alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <h1 class="font-bold text-xl mb-2">{{ block.heading }}</h1>
+              <p class="text-grey-darker text-base">
+                {{ block.paragraph }}
+              </p>
+            </div>
+            <div class="px-6 py-4 absolute pin-b">
 
+              <button class="bg-navy-light hover:bg-navy text-grey-lightest font-bold py-2 px-2 rounded inline-flex items-center border-b-4 border-navy-dark">
+                <span>Read more</span>
+                <font-awesome-icon
+                  icon="arrow-right"
+                  class="ml-2"
+                />
+              </button>
+
+            </div>
           </div>
 
         </div>
