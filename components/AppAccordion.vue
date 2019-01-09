@@ -96,13 +96,15 @@ export default {
 
 .js-badger-accordion-header {
   @apply bg-grey-lighter;
-  @apply border-black;
+  @apply border-grey-darkest;
   @apply border-solid;
+  @apply border-b-2;
   &:hover,
   &.-ba-is-active {
-    @apply bg-grey-darker;
-    @apply text-white;
-    transition: background-color ease-in-out 0.1s;
+    @apply border-grey-light;
+    @apply border-solid;
+    @apply border-b-2;
+    transition: border-color ease-in-out 0.1s;
   }
 }
 
