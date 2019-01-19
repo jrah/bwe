@@ -3,19 +3,13 @@
   <div>
     <app-main-header
       :component-image="home.image"
-      :component-form="true"
-      :component-paragraph="home.intro"
+      :component-form="false"
       :component-title="home.title"/>
-    <app-feature-block
-      :component-link="home.logos.link"
-      :component-icon="home.logos.type"
-      :component-title="home.logos.title"
-      :component-loop="home.logos.block"/>
     <app-feature-block
       :component-background-color="'grey-lightest'"
       :component-flex-item="'flex-1'"
-      :component-title="home.features.title"
-      :component-loop="home.features.block"/>
+      :component-title="home.services.title"
+      :component-loop="home.services.block"/>
     <app-feature-grid
       :component-title="home.features.title"
       :component-loop="home.features.block"/>
@@ -27,6 +21,11 @@
     <app-feature-blog
       :component-title="home.features.title"
       :component-loop="home.features.block"/>
+    <app-feature-block
+      :component-link="home.logos.link"
+      :component-icon="home.logos.type"
+      :component-title="home.logos.title"
+      :component-loop="home.logos.block"/>
   </div>
 </template>
 
