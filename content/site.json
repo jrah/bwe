@@ -31,7 +31,7 @@
   ],
   "nav": [
     {
-      "text": "About Bright World",
+      "text": "About Us",
       "content": [
         {
           "text": "More about the company",
@@ -48,7 +48,24 @@
       ]
     },
     {
-      "text": "Category",
+      "text": "Guardianships",
+      "content": [
+        {
+          "text": "More about the company",
+          "href": "#"
+        },
+        {
+          "text": "Head Office team",
+          "href": "#"
+        },
+        {
+          "text": "Bright World Buddy team",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "text": "Boarding Schools",
       "content": [
         {
           "text": "Link",
@@ -65,7 +82,7 @@
       ]
     },
     {
-      "text": "Category",
+      "text": "Guardianship",
       "content": [
         {
           "text": "Link",
@@ -82,7 +99,7 @@
       ]
     },
     {
-      "text": "Category",
+      "text": "Holiday Courses",
       "content": [
         {
           "text": "Link",

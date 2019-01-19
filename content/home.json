@@ -45,7 +45,7 @@
       }
     ]
   },
-  "title": "Lorem ipsum dolor sit.",
+  "title": "Find your perfect guardian",
   "image_state": "static",
   "image": "/images/uploads/0c3a0930-extended1.jpg",
   "features": {
@@ -65,6 +65,27 @@
       {
         "icon": "home",
         "heading": "Lorem ipsum dolor.",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
+      }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "type": "Font Awesome",
+    "block": [
+      {
+        "icon": "chalkboard-teacher",
+        "heading": "Guardianship.",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
+      },
+      {
+        "icon": "university",
+        "heading": "Boarding Schools",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
+      },
+      {
+        "icon": "home",
+        "heading": "Holiday Courses",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
       }
     ]
