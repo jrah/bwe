@@ -17,7 +17,7 @@
           />
           <h2
             v-if="block.heading"
-            class="leading-tight text-2xl my-3">{{ block.heading }}</h2>
+            class="leading-tight text-2xl my-3 text-black">{{ block.heading }}</h2>
           <p
             v-if="block.paragraph"
             class="leading-normal mt-0 mb-6">{{ block.paragraph }}</p>
@@ -57,6 +57,9 @@ export default {
 <style lang="scss" scoped>
 .simpleSelection {
   &:hover > p {
+    @apply text-white;
+  }
+  &:hover > h2 {
     @apply text-white;
   }
 }
