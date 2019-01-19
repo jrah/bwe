@@ -11,7 +11,23 @@
           :name=" '' + index "
           :class="componentFlexItem"
           class="text-center px-4">
-          drgryhdx
+          <div
+            v-if="componentIcon == 'Font Awesome'"
+            class="mb-4"
+          >
+            <font-awesome-icon
+              :icon="block.icon"
+              size="4x"
+            />
+
+          </div>
+          <div
+            v-else>
+            <img
+              :src="require(`~/assets/images/placeholder/${block.icon}.svg`)"
+              :alt="block.icon">
+          </div>
+
           <h2
             v-if="block.heading"
             class="leading-tight text-lg my-3">{{ block.heading }}</h2>
@@ -20,6 +36,16 @@
             class="leading-normal mt-0 mb-6">{{ block.paragraph }}</p>
         </div>
 
+      </div>
+
+      <div
+        v-for="(i, index) in componentLink"
+        :key="index"
+        class="mt-10 flex justify-center"
+      >
+        <a
+          :href="i.href"
+          class="no-underline bg-navy hover:bg-navy-dark text-white font-bold py-2 px-4 rounded">{{ i.text }}</a>
       </div>
 
     </div>
