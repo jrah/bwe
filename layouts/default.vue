@@ -68,6 +68,7 @@ nav,
 button,
 a {
   @apply font-roboto;
+  @apply text-grey-darker;
   @apply text-base;
 }
 
