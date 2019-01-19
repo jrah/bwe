@@ -15,8 +15,10 @@
       :component-loop="home.features.block"/>
     <app-testimonial
       :component-loop="home.testimonial"/>
-    <app-feature-grid
+    <app-simple-selection
+      :component-background-color="'grey-lightest'"
       :component-title="home.options.title"
+      :component-flex-item="'flex-1'"
       :component-loop="home.options.block"/>
     <app-feature-blog
       :component-title="home.features.title"
@@ -38,6 +40,7 @@ import AppFeatureBlock from '~/components/AppFeatureBlock.vue'
 import AppFeatureGrid from '~/components/AppFeatureGrid.vue'
 import AppTestimonial from '~/components/AppTestimonial.vue'
 import AppFeatureBlog from '~/components/AppFeatureBlog.vue'
+import AppSimpleSelection from '~/components/AppSimpleSelection.vue'
 
 export default {
   components: {
@@ -46,7 +49,8 @@ export default {
     AppFeatureBlock,
     AppFeatureGrid,
     AppTestimonial,
-    AppFeatureBlog
+    AppFeatureBlog,
+    AppSimpleSelection
   },
   data() {
     return {
