@@ -3,7 +3,7 @@
 
     <div
       :style="{'background-image' : 'url('+componentImage+')'}"
-      class="bg-cover bg-center py-6 relative bg-navy">
+      class="bg-cover bg-center pt-12 relative bg-navy">
       <div class="container py-32 relative z-10">
         <div class="text-white m:w-3/5 l:w-2/5">
           <h1

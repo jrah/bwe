@@ -1,54 +1,32 @@
 <template>
   <div>
-    <span
-      :class="{ isOpenToggle: isOpen }"
-      class="cursor-pointer relative z-20"
-      @click="toggleNav()">
-      <font-awesome-icon
-        icon="bars"
-        size="2x"
-        color="white"
-      />
-    </span>
-    <nav>
+    <nav class="flex items-center justify-end">
       <!-- <span @click="closeNav(click)" class="pointer z-4">Close</span> -->
       <div
         :class="{ isOpen: isOpen }"
-        class="hidden">
-        <ul class="container list-reset justify-between pin-important">
-          <li class="mb-2">
-            <a
-              href="#"
-              class="text-grey-darkest font-black text-lg no-underline hover:text-grey uppercase">About Bright World</a>
-          </li>
-          <li class="mb-2">
-            <a
-              href="#"
-              class="text-grey-darkest font-black text-lg no-underline hover:text-grey uppercase">Policies</a>
-          </li>
-        </ul>
-        <ul class="list-reset flex justify-between items-center h-full container">
+        class="">
+        <ul class="list-reset flex justify-between items-center z-20 relative">
           <li
             v-for="(item, index) in site.nav"
             :key="index"
             :name=" '' + index "
-            class="">
-            <h2 class="text-grey-darkest font-black text-lg uppercase mb-4">{{ item.text }}</h2>
-            <ul class="list-reset">
-              <li
-                v-for="(inner, index) in item.content"
-                :key="index"
-                :name=" '' + index "
-                class="mb-1">
-                <a
-                  :href="inner.href"
-                  class="text-grey-darker no-underline hover:text-grey"> {{ inner.text }}</a>
-              </li>
-            </ul>
+            class="dib mr-6">
+            <a
+              :href="item.href"
+              class="text-white hover:text-blue no-underline text-lg mb-4">{{ item.text }}</a>
           </li>
         </ul>
-
       </div>
+      <span
+        :class="{ isOpenToggle: isOpen }"
+        class="cursor-pointer relative z-20"
+        @click="toggleNav()">
+        <font-awesome-icon
+          icon="bars"
+          size="2x"
+          color="white"
+        />
+      </span>
     </nav>
   </div>
 
@@ -73,12 +51,12 @@ export default {
       this.isOpen = !this.isOpen
       const header = document.querySelector('#header')
       document.querySelector('.site').classList.toggle('position-fixed')
-      if (header.classList.contains('container')) {
-        document.querySelector('#header').classList.remove('container')
-      } else {
-        document.querySelector('#header').classList.add('container')
-      }
-      // document.querySelector('header').classList.toggle('h-screen')
+      // if (header.classList.contains('container')) {
+      //   document.querySelector('#header').classList.remove('container')
+      // } else {
+      //   document.querySelector('#header').classList.add('container')
+      // }
+      document.querySelector('header').classList.toggle('h-screen')
     }
   }
 }
@@ -87,22 +65,22 @@ export default {
 <style lang="scss">
 @import 'assets/scss/mixins';
 
-.isOpen {
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  z-index: 40;
-  height: 100vh;
-  @apply bg-white;
-  &Toggle {
-    padding-right: 4rem;
-    max-width: 72em;
-  }
-}
+// .isOpen {
+//   display: block;
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   width: 100%;
+//   z-index: 40;
+//   height: 100vh;
+//   @apply bg-white;
+//   &Toggle {
+//     padding-right: 4rem;
+//     max-width: 72em;
+//   }
+// }
 
 .position-fixed {
   height: 100%;
@@ -111,8 +89,8 @@ export default {
   @apply bg-white;
 }
 
-.pin-important {
-  position: absolute;
-  top: 1.5em;
-}
+// .pin-important {
+//   position: absolute;
+//   top: 1.5em;
+// }
 </style>

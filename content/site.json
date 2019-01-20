@@ -2,7 +2,7 @@
   "title": "Bright World",
   "contact_information": [
     {
-      "postal": "10 Downing Street, London, SW1A 2AA",
+      "postal": "Forge House, 105 High Street, Hurstpierpoint, West Sussex, BN6 9PU",
       "phone": "+044777",
       "email": "email@email.com"
     }
@@ -29,9 +29,24 @@
       "href": "#"
     }
   ],
+  "visible_nav": [
+    {
+      "text": "Guardianship",
+      "href": "#"
+    },
+    {
+      "text": "Boarding Schools",
+      "href": "#"
+    },
+    {
+      "text": "Holiday Courses",
+      "href": "#"
+    }
+  ],
   "nav": [
     {
-      "text": "About Us",
+      "text": "About Bright World",
+      "href": "#",
       "content": [
         {
           "text": "More about the company",
@@ -48,7 +63,8 @@
       ]
     },
     {
-      "text": "Guardianships",
+      "text": "Guardianship",
+      "href": "#",
       "content": [
         {
           "text": "More about the company",
@@ -66,23 +82,7 @@
     },
     {
       "text": "Boarding Schools",
-      "content": [
-        {
-          "text": "Link",
-          "href": "#"
-        },
-        {
-          "text": "Link",
-          "href": "#"
-        },
-        {
-          "text": "Link",
-          "href": "#"
-        }
-      ]
-    },
-    {
-      "text": "Guardianship",
+      "href": "#",
       "content": [
         {
           "text": "Link",
@@ -100,6 +100,7 @@
     },
     {
       "text": "Holiday Courses",
+      "href": "#",
       "content": [
         {
           "text": "Link",
