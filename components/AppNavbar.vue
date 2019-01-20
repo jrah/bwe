@@ -2,11 +2,12 @@
   <div>
     <span
       :class="{ isOpenToggle: isOpen }"
-      class="cursor-pointer relative z-50"
+      class="cursor-pointer relative z-20"
       @click="toggleNav()">
       <font-awesome-icon
         icon="bars"
         size="2x"
+        color="white"
       />
     </span>
     <nav>

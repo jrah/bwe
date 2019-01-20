@@ -1,11 +1,10 @@
 <template>
   <a
     href="/"
-    class="no-underline flex items-center text-grey-darkest">
+    class="no-underline flex items-center text-grey-darkest z-20">
     <img
-      src="~assets/images/logo.png"
+      src="~assets/images/logo.svg"
       class="w-24 text-white"
       alt="Logo">
-    <span class="ml-4 text-3xl font-black">Bright World</span>
   </a>
 </template>
