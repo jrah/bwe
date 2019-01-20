@@ -49,7 +49,8 @@ export default {
     },
     componentParagraph: {
       type: String,
-      required: true
+      required: false,
+      default: ''
     },
     componentForm: {
       type: Boolean,
