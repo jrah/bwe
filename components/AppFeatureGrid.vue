@@ -1,5 +1,5 @@
 <template lang="html">
-  <section>
+  <section :class="'bg-'+componentBackgroundColor">
     <div class="container py-10">
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
       <div class="featureGrid">
@@ -27,14 +27,22 @@
               </button>
             </div>
             <div
-              v-if="block.icon"
               class="absolute pin-b pin-r">
               <div class="ns:-m-8 p-3 relative z-10 text-grey">
-                <font-awesome-icon
-                  :icon="block.icon"
-                  class="ml-2 featureGrid-icon fill-current"
-                  size="8x"
-                />
+                <div v-if="block.icon">
+                  <font-awesome-icon
+                    :icon="block.icon"
+                    class="ml-2 featureGrid-icon fill-current"
+                    size="8x"
+                  />
+                </div>
+                <div v-else>
+                  <div class="w-48 max-w-xs">
+                    <img
+                      :src="block.image"
+                      :alt="block.icon">
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -55,6 +63,11 @@ export default {
     componentLoop: {
       type: Array,
       required: true
+    },
+    componentBackgroundColor: {
+      type: String,
+      required: false,
+      default: ''
     }
   }
 }
@@ -71,7 +84,7 @@ export default {
   &-item {
     height: 100%;
     width: 100%;
-    padding-bottom: 3.5rem;
+    margin-bottom: 3.5rem;
     &:last-child {
       padding-bottom: 0;
     }
