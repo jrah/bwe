@@ -20,14 +20,14 @@
       :component-title="home.options.title"
       :component-flex-item="'flex-1'"
       :component-loop="home.options.block"/>
-    <app-feature-blog
-      :component-title="home.features.title"
-      :component-loop="home.features.block"/>
     <app-feature-block
       :component-link="home.logos.link"
       :component-icon="home.logos.type"
       :component-title="home.logos.title"
       :component-loop="home.logos.block"/>
+    <app-feature-blog
+      :component-title="home.features.title"
+      :component-loop="home.features.block"/>
   </div>
 </template>
 
