@@ -115,7 +115,7 @@
     ]
   },
   "options": {
-    "title": "Actions",
+    "title": "Join Us",
     "block": [
       {
         "icon": "child",
@@ -124,7 +124,7 @@
       },
       {
         "icon": "user",
-        "heading": "Agents",
+        "heading": "Become an agent",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem alias ad quidem, culpa, dolorum ut!"
       }
     ]
