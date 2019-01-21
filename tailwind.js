@@ -95,11 +95,11 @@ let colors = {
   'teal-lighter': '#a0f0ed',
   'teal-lightest': '#e8fffe',
 
-  'blue-darkest': '#12283a',
-  'blue-darker': '#1c3d5a',
-  'blue-dark': '#2779bd',
-  blue: '#3490dc',
-  'blue-light': '#6cb2eb',
+  'blue-darkest': '#525ca6',
+  'blue-darker': '#344267',
+  'blue-dark': '#1c3d5a',
+  blue: '#525ca6',
+  'blue-light': '#919fd1',
   'blue-lighter': '#bcdefa',
   'blue-lightest': '#eff8ff',
 
