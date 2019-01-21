@@ -71,20 +71,19 @@
   },
   "services": {
     "title": "Services",
-    "type": "Font Awesome",
     "block": [
       {
-        "image": "/images/uploads/square-brochure-100x100px.png",
+        "image": "/images/uploads/family.svg",
         "heading": "Guardianship.",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
       },
       {
-        "image": "/images/uploads/square-brochure-100x100px.png",
+        "image": "/images/uploads/buddy-grey2.svg",
         "heading": "Boarding Schools",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
       },
       {
-        "icon": "home",
+        "image": "/images/uploads/airplane.svg",
         "heading": "Holiday Courses",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
       }

@@ -22,7 +22,8 @@
 
           </div>
           <div
-            v-else>
+            v-else
+            class="featureBlock-image--small m-auto">
             <img
               :src="block.image"
               :alt="block.icon">
@@ -83,4 +84,7 @@ export default {
 </script>
 
 <style lang="css">
+.featureBlock-image--small {
+  max-width: 5rem;
+}
 </style>
