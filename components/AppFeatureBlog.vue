@@ -9,7 +9,7 @@
           :key="index"
 
           class="w-full m:w-1/2 l:w-1/3 p-6">
-          <div class="rounded overflow-hidden shadow-lg relative pb-16 mb-16 ns:mb-0 bg-white">
+          <div class="rounded overflow-hidden shadow-lg relative pb-16 mb-16 ns:mb-0 bg-white blogItem">
             <img
               :src="block.image"
               class="w-full"
@@ -69,4 +69,7 @@ export default {
 </script>
 
 <style lang="css">
+.blogItem {
+  min-height: 36rem;
+}
 </style>
