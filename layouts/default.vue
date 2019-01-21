@@ -1,11 +1,12 @@
 <template>
   <div class="site-canvas">
-    <div class="absolute w-full">
+    <div 
+      id="header"
+      class="absolute w-full">
       <div
-        id="header"
         class="relative py-3 flex justify-between items-center container">
-        <app-logo class="w-1/4"/>
-        <app-navbar class="w-3/4"/>
+        <app-logo/>
+        <app-navbar/>
       </div>
     </div>
     <nuxt/>
