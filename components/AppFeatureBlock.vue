@@ -3,7 +3,7 @@
     <div
       class="container py-10">
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
-      <div class="m:flex l:flex flex-wrap justify-between">
+      <div class="m:flex l:flex flex-wrap justify-between items-center">
 
         <div
           v-for="(block, index) in componentLoop"

@@ -140,19 +140,16 @@
     ],
     "block": [
       {
-        "image": "/images/uploads/logo.svg"
+        "image": "/images/uploads/logo-aegis.png"
       },
       {
-        "image": "/images/uploads/logo.svg"
+        "image": "/images/uploads/logo-award-service.jpg"
       },
       {
-        "image": "/images/uploads/logo.svg"
+        "image": "/images/uploads/logo-euk-corporate.jpg"
       },
       {
-        "image": "/images/uploads/logo.svg"
-      },
-      {
-        "image": "/images/uploads/logo.svg"
+        "image": "/images/uploads/logo-protect-children.png"
       }
     ]
   },
