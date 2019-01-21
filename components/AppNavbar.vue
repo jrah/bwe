@@ -4,15 +4,28 @@
     class="flex items-center justify-end">
     <!-- <span @click="closeNav(click)" class="pointer z-4">Close</span> -->
     <ul
-      class="hidden list-reset ns:flex justify-between items-center z-20 relative">
+      class="hidden list-reset l:flex justify-between items-center z-20 relative">
       <li
         v-for="(item, index) in site.nav"
         :key="index"
         :name=" '' + index "
-        class="dib mr-6">
+        class="dib mr-4 l:mr-6">
         <a
           :href="item.href"
-          class="text-white hover:text-blue no-underline text-lg mb-4">{{ item.text }}</a>
+          class="text-white hover:text-blue no-underline mb-4 text-lg">{{ item.text }}</a>
+        <ul
+          class="hidden list-reset z-20 relative">
+          <li
+            v-for="(item, index) in site.nav"
+            :key="index"
+            :name=" '' + index "
+            class="dib mr-6">
+            <a
+              :href="item.href"
+              class="text-white hover:text-blue no-underline text-lg mb-4">{{ item.text }}</a>
+
+          </li>
+        </ul>
       </li>
     </ul>
     <span
