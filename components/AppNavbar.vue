@@ -1,10 +1,10 @@
 <template>
-  <nav 
+  <nav
     :class="{ isOpen: isOpen }"
     class="flex items-center justify-end">
     <!-- <span @click="closeNav(click)" class="pointer z-4">Close</span> -->
     <ul
-      class="list-reset flex justify-between items-center z-20 relative">
+      class="hidden list-reset ns:flex justify-between items-center z-20 relative">
       <li
         v-for="(item, index) in site.nav"
         :key="index"
