@@ -23,7 +23,7 @@
     <app-simple-selection
       :component-background-color="'grey-lightest'"
       :component-title="home.options.title"
-      :component-flex-item="'flex-1'"
+      :component-flex-item="'ns:flex-1'"
       :component-loop="home.options.block"/>
     <app-feature-block
       :component-link="home.logos.link"
