@@ -75,7 +75,7 @@
       {
         "image": "/images/uploads/family.svg",
         "heading": "Guardianship",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
+        "paragraph": "Professional, first class guardianship service to overseas students in UK Boarding Schools and Colleges."
       },
       {
         "image": "/images/uploads/buddy-grey2.svg",
@@ -95,17 +95,22 @@
       {
         "image": "/images/uploads/home.svg",
         "heading": "Guardianship",
-        "paragraph": "Professional, first class guardianship service to overseas students in UK Boarding Schools and Colleges."
+        "paragraph": "Bright World provides a professional, first class guardianship service to overseas students in UK Boarding Schools and Colleges. Our leading programmes are available at over 500 schools and colleges across England, Scotland and Wales."
       },
       {
         "image": "/images/uploads/school.svg",
-        "heading": "Boarding Schools",
-        "paragraph": "Bright World can help you to find a place in a range of over 300 UK boarding schools."
+        "heading": "Boarding School",
+        "paragraph": "Bright World offers expert Boarding School placement advice to overseas parents and agents. Our placement service ensures that all our students find their place within a UK Independent Boarding School."
       },
       {
         "image": "/images/uploads/destination.svg",
-        "heading": "Holiday Courses",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
+        "heading": "Holiday Programmes",
+        "paragraph": "Bright World offers a selection of holiday courses available at a range of UK Boarding Schools, Colleges and Centres."
+      },
+      {
+        "image": "/images/uploads/graduation.svg",
+        "heading": "UK University Guardianship",
+        "paragraph": "Bright World offers a comprehensive, UK Guardianship to overseas students studying at UK University. Students aged under 18 at the point of admission to a UK University will be required to nominate a UK guardian."
       }
     ]
   },
