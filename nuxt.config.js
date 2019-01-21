@@ -26,11 +26,7 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Raleway:300,400,700'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Roboto'
+        href: 'https://use.typekit.net/khy8imo.css'
       }
     ],
     script: [

@@ -30,7 +30,7 @@ export default {
 <style lang="scss">
 @import '~assets/scss/mixins';
 html {
-  @apply font-sans font-normal text-black leading-normal;
+  @apply font-copy font-normal text-black leading-normal;
 }
 
 h1,
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-raleway;
+  @apply font-heading;
 }
 
 p,
@@ -47,7 +47,7 @@ blockquote,
 nav,
 button,
 a {
-  @apply font-roboto;
+  @apply font-copy;
   @apply text-grey-darker;
   @apply text-base;
 }

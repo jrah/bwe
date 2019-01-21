@@ -192,44 +192,16 @@ module.exports = {
   */
 
   fonts: {
-    sans: [
-      'Raleway',
+    heading: [
+      '"fira-sans"',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
       'Helvetica Neue',
       'sans-serif'
     ],
-    serif: [
-      'Constantia',
-      'Lucida Bright',
-      'Lucidabright',
-      'Lucida Serif',
-      'Lucida',
-      'DejaVu Serif',
-      'Bitstream Vera Serif',
-      'Liberation Serif',
-      'Georgia',
-      'serif'
-    ],
-    mono: [
-      'Menlo',
-      'Monaco',
-      'Consolas',
-      'Liberation Mono',
-      'Courier New',
-      'monospace'
-    ],
-    raleway: [
-      '"Raleway"',
-      'system-ui',
-      'BlinkMacSystemFont',
-      '-apple-system',
-      'Helvetica Neue',
-      'sans-serif'
-    ],
-    roboto: [
-      '"Roboto"',
+    copy: [
+      '"source-sans-pro"',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
