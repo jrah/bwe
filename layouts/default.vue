@@ -1,6 +1,6 @@
 <template>
   <div class="site-canvas">
-    <div 
+    <div
       id="header"
       class="absolute w-full">
       <div
@@ -11,6 +11,7 @@
     </div>
     <nuxt/>
     <app-footer/>
+    <app-alert/>
   </div>
 </template>
 
@@ -18,12 +19,14 @@
 import appNavbar from '~/components/AppNavbar.vue'
 import appFooter from '~/components/AppFooter.vue'
 import appLogo from '~/components/AppLogo.vue'
+import appAlert from '~/components/AppAlert.vue'
 
 export default {
   components: {
     appFooter,
     appNavbar,
-    appLogo
+    appLogo,
+    appAlert
   }
 }
 </script>
