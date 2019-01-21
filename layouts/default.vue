@@ -11,7 +11,7 @@
     </div>
     <nuxt/>
     <app-footer/>
-    <app-alert/>
+    <app-switcher/>
   </div>
 </template>
 
@@ -19,14 +19,14 @@
 import appNavbar from '~/components/AppNavbar.vue'
 import appFooter from '~/components/AppFooter.vue'
 import appLogo from '~/components/AppLogo.vue'
-import appAlert from '~/components/AppAlert.vue'
+import appSwitcher from '~/components/AppSwitcher.vue'
 
 export default {
   components: {
     appFooter,
     appNavbar,
     appLogo,
-    appAlert
+    appSwitcher
   }
 }
 </script>
