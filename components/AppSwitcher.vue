@@ -12,7 +12,7 @@
           <span class="inline">/</span>
           <nuxt-link
             class="mx-2 text-left text-white no-underline"
-            to="/offer">Offer</nuxt-link>
+            to="/boardingschools">Boarding Schools</nuxt-link>
           <span class="inline">/</span>
           <nuxt-link
             class="mx-2 text-left text-white no-underline"
