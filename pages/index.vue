@@ -13,6 +13,10 @@
       :component-background-color="'grey-lightest'"
       :component-title="home.services_alt.title"
       :component-loop="home.services_alt.block"/>
+    <app-feature-grid
+      :component-background-color="'grey-lightest'"
+      :component-title="home.services_native_icons.title"
+      :component-loop="home.services_native_icons.block"/>
     <app-testimonial
       :component-loop="home.testimonial"/>
     <app-simple-selection

@@ -114,6 +114,31 @@
       }
     ]
   },
+  "services_native_icons": {
+    "title": "Services",
+    "block": [
+      {
+        "image": "/images/uploads/female-student.svg",
+        "heading": "Guardianship",
+        "paragraph": "Bright World provides a professional, first class guardianship service to overseas students in UK Boarding Schools and Colleges. Our leading programmes are available at over 500 schools and colleges across England, Scotland and Wales."
+      },
+      {
+        "image": "/images/uploads/male-student.svg",
+        "heading": "Boarding School",
+        "paragraph": "Bright World offers expert Boarding School placement advice to overseas parents and agents. Our placement service ensures that all our students find their place within a UK Independent Boarding School."
+      },
+      {
+        "image": "/images/uploads/sun.svg",
+        "heading": "Holiday Programmes",
+        "paragraph": "Bright World offers a selection of holiday courses available at a range of UK Boarding Schools, Colleges and Centres."
+      },
+      {
+        "image": "/images/uploads/mortar-board.svg",
+        "heading": "UK University Guardianship",
+        "paragraph": "Bright World offers a comprehensive, UK Guardianship to overseas students studying at UK University. Students aged under 18 at the point of admission to a UK University will be required to nominate a UK guardian."
+      }
+    ]
+  },
   "options": {
     "title": "Join Us",
     "block": [
