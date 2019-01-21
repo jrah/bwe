@@ -6,13 +6,13 @@
       :component-form="false"
       :component-title="home.title"/>
     <app-feature-block
-      :component-background-color="'grey-lightest'"
       :component-flex-item="'flex-1'"
       :component-title="home.services.title"
       :component-loop="home.services.block"/>
     <app-feature-grid
-      :component-title="home.features.title"
-      :component-loop="home.features.block"/>
+      :component-background-color="'grey-lightest'"
+      :component-title="home.services_alt.title"
+      :component-loop="home.services_alt.block"/>
     <app-testimonial
       :component-loop="home.testimonial"/>
     <app-simple-selection
