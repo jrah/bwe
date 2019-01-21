@@ -11,24 +11,26 @@
           class="w-full m:w-1/2 l:w-1/3 p-6">
           <div class="rounded overflow-hidden shadow-lg relative pb-16 mb-16 ns:mb-0 bg-white">
             <img
+              :src="block.image"
               class="w-full"
-              src="https://tailwindcss.com/img/card-top.jpg"
               alt="Sunset in the mountains">
             <div class="px-6 py-4">
-              <h1 class="font-bold text-xl mb-2">{{ block.heading }}</h1>
+              <h1 class="font-bold text-xl mb-2">{{ block.title }}</h1>
               <p class="text-grey-darker text-base">
                 {{ block.paragraph }}
               </p>
             </div>
             <div class="px-6 py-4 absolute pin-b">
 
-              <button class="bg-navy-light hover:bg-navy text-grey-lightest font-bold py-2 px-2 rounded inline-flex items-center border-b-4 border-navy-dark">
-                <span>Call to action</span>
+              <a
+                :href="block.href"
+                class="bg-navy-light hover:bg-navy text-grey-lightest font-bold py-2 px-2 rounded inline-flex items-center border-b-4 border-navy-dark no-underline">
+                <span>Read More</span>
                 <font-awesome-icon
                   icon="arrow-right"
                   class="ml-2"
                 />
-              </button>
+              </a>
 
             </div>
           </div>

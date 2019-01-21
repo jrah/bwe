@@ -120,12 +120,12 @@
       {
         "icon": "child",
         "heading": "Become a host family",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum sed nisi deleniti."
+        "paragraph": "Join our host family program and host international students."
       },
       {
         "icon": "user",
         "heading": "Become an agent",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem alias ad quidem, culpa, dolorum ut!"
+        "paragraph": "Join our education agent network."
       }
     ]
   },
@@ -155,16 +155,39 @@
   },
   "testimonial": [
     {
-      "quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, nemo.",
-      "author": "Customer"
+      "quote": "Dear Cory, we would like to thank you for the perfect services you provided Nicolas. It was always a pleasure to work with you. All the best!",
+      "author": "Felix Schmid"
     },
     {
-      "quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore corporis illum sunt unde.",
-      "author": "Customer"
+      "quote": "Bright World helped us in many situations that needed special attention and prompt action.",
+      "author": "Yana Torokhova"
     },
     {
-      "quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "author": "Customer"
+      "quote": "I have to say that Bright World provides the best guardianship service I have known in my 15 years in boarding. So thank you very much from me my team and on behalf of the pupils.",
+      "author": "John Gale, Housemaster, LVS"
     }
-  ]
+  ],
+  "blog": {
+    "title": "Blog",
+    "block": [
+      {
+        "title": "How do guardians work with schools?",
+        "image": "https://tailwindcss.com/img/card-top.jpg",
+        "paragraph": "Whether applying for guardianship as a parent, overseas agent or student. When it comes to schools and guardians, just like any relationship; partnership, compromise and flexibility are key. But how do both parties navigate what can be, at times a tricky relationship?",
+        "href": "https://www.brightworld.co.uk/blog/post.asp?post=how_do_guardians_work_with_schools_76"
+      },
+      {
+        "title": "Why is my UK boarding school is asking me to appoint a guardian?",
+        "image": "https://tailwindcss.com/img/card-top.jpg",
+        "paragraph": "You’ve just arrived at school, you’re all set to start your first term and you are asked for the name of your nominated UK guardian. So, what is a guardian, and why is your school asking you to appoint one?",
+        "href": "https://www.brightworld.co.uk/blog/post.asp?post=why_has_my_uk_boarding_school_asked_me_to_appoint_a_guardian_71"
+      },
+      {
+        "title": "What is a Prep School?",
+        "image": "https://tailwindcss.com/img/card-top.jpg",
+        "paragraph": "Here at Bright World, we often get asked questions about the nature of prep schools, what purpose they serve, and why they should be considered. So, what exactly is a prep school?",
+        "href": "https://www.brightworld.co.uk/blog/post.asp?post=what_are_prep_schools_57"
+      }
+    ]
+  }
 }

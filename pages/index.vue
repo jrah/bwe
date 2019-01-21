@@ -26,8 +26,8 @@
       :component-title="home.logos.title"
       :component-loop="home.logos.block"/>
     <app-feature-blog
-      :component-title="home.features.title"
-      :component-loop="home.features.block"/>
+      :component-title="home.blog.title"
+      :component-loop="home.blog.block"/>
   </div>
 </template>
 
