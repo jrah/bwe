@@ -2,9 +2,8 @@
   <!-- add link to bottom of trusted by -->
   <div>
     <app-main-header
-      :component-image="offer.image"
-      :component-paragraph="offer.intro"
-      :component-title="offer.title"/>
+      :component-image="bsch.image"
+      :component-title="bsch.title"/>
     <app-road-map
       :component-title="home.features.title"
       :component-loop="home.features.block"/>
@@ -20,8 +19,8 @@
     <app-testimonial
       :component-loop="home.testimonial"/>
     <app-comparison-table
-      :component-title="offer.comparison.title"
-      :component-loop="offer.comparison.block"/>
+      :component-title="bsch.comparison.title"
+      :component-loop="bsch.comparison.block"/>
     <app-accordion
       :component-level="2"
       :component-title="home.features.title"
@@ -34,7 +33,7 @@
 
 <script>
 import home from '~/content/home.json'
-import offer from '~/content/offer.json'
+import bsch from '~/content/boardingschools.json'
 
 import AppMainHeader from '~/components/AppMainHeader.vue'
 import AppSplash from '~/components/AppSplash.vue'
@@ -61,7 +60,7 @@ export default {
   data() {
     return {
       home,
-      offer
+      bsch
     }
   }
 }

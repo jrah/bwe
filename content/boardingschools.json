@@ -1,8 +1,23 @@
 {
-  "title": "Lorem ipsum dolor sit.",
+  "title": "UK Boarding Schools.",
   "intro": "Lorem ipsum dolor sit amet, consectetur.",
-  "image_state": "static",
   "image": "/images/uploads/mikito-tateisi-333584-unsplash.jpg",
+  "stages": {
+    "block": [
+      {
+        "paragraph": "Lorem ipsum dolor.",
+        "icon": "check"
+      },
+      {
+        "paragraph": "Lorem ipsum dolor.",
+        "icon": "check"
+      },
+      {
+        "paragraph": "Lorem ipsum dolor.",
+        "icon": "check"
+      }
+    ]
+  },
   "comparison": {
     "title": "Lorem ipsum.",
     "block": [
