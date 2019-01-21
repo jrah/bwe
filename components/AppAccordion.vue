@@ -21,7 +21,7 @@
               :key="index">
               <h2
                 slot="header"
-                class="text-lg">{{ block.heading }}</h2>
+                class="text-lg select-none">{{ block.heading }}</h2>
               <div
                 slot="content">
                 <p
