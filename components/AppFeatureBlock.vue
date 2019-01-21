@@ -12,7 +12,7 @@
           :class="componentFlexItem"
           class="text-center px-4">
           <div
-            v-if="componentIcon == 'Font Awesome'"
+            v-if="block.icon"
             class="mb-4"
           >
             <font-awesome-icon
@@ -24,7 +24,7 @@
           <div
             v-else>
             <img
-              :src="require(`~/assets/images/placeholder/${block.icon}.svg`)"
+              :src="block.image"
               :alt="block.icon">
           </div>
 

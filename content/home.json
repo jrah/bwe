@@ -74,12 +74,12 @@
     "type": "Font Awesome",
     "block": [
       {
-        "icon": "chalkboard-teacher",
+        "image": "/images/uploads/square-brochure-100x100px.png",
         "heading": "Guardianship.",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
       },
       {
-        "icon": "university",
+        "image": "/images/uploads/square-brochure-100x100px.png",
         "heading": "Boarding Schools",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
       },
