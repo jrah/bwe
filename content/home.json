@@ -47,7 +47,7 @@
   },
   "title": "Find your perfect guardian",
   "image_state": "static",
-  "image": "/images/uploads/0c3a0930-extended1.jpg",
+  "image": "/images/uploads/0c3a0830-extended.jpg",
   "features": {
     "title": "Lorem ipsum",
     "type": "Font Awesome",
@@ -74,7 +74,7 @@
     "block": [
       {
         "image": "/images/uploads/family.svg",
-        "heading": "Guardianship.",
+        "heading": "Guardianship",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
       },
       {
@@ -84,6 +84,26 @@
       },
       {
         "image": "/images/uploads/airplane.svg",
+        "heading": "Holiday Courses",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
+      }
+    ]
+  },
+  "services_alt": {
+    "title": "Services",
+    "block": [
+      {
+        "image": "/images/uploads/home.svg",
+        "heading": "Guardianship",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
+      },
+      {
+        "image": "/images/uploads/school.svg",
+        "heading": "Boarding Schools",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
+      },
+      {
+        "image": "/images/uploads/destination.svg",
         "heading": "Holiday Courses",
         "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
       }
@@ -115,19 +135,19 @@
     ],
     "block": [
       {
-        "icon": "logo"
+        "image": "/images/uploads/logo.svg"
       },
       {
-        "icon": "logo"
+        "image": "/images/uploads/logo.svg"
       },
       {
-        "icon": "logo"
+        "image": "/images/uploads/logo.svg"
       },
       {
-        "icon": "logo"
+        "image": "/images/uploads/logo.svg"
       },
       {
-        "icon": "logo"
+        "image": "/images/uploads/logo.svg"
       }
     ]
   },
