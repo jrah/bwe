@@ -2,6 +2,7 @@
   <section :class="'bg-'+componentBackgroundColor">
     <div class="container py-10">
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
+      
       <div class="featureGrid">
 
         <div
@@ -37,7 +38,9 @@
                   />
                 </div>
                 <div v-else>
-                  <div class="w-48 max-w-xs">
+                  <div
+                    :class="(componentSize >= 32)?'w-48':'w-32'"
+                    class="max-w-xs">
                     <img
                       :src="block.image"
                       :alt="block.icon">
@@ -63,6 +66,11 @@ export default {
     componentLoop: {
       type: Array,
       required: true
+    },
+    componentSize: {
+      type: Number,
+      required: false,
+      default: 32
     },
     componentBackgroundColor: {
       type: String,
