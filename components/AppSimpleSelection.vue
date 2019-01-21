@@ -3,13 +3,13 @@
     <div
       class="container py-10">
       <h1 class="text-center mb-12 text-4xl">{{ componentTitle }}</h1>
-      <div class="ns:flex flex-wrap justify-between mb-4">
+      <div class="flex flex-wrap justify-between mb-4">
 
         <a
           v-for="(block, index) in componentLoop"
           :key="index"
           :class="componentFlexItem"
-          class="simpleSelection rounded p-4 hover:bg-blue cursor-pointer mx-4 bg-white relative hover:text-white">
+          class="simpleSelection w-full rounded p-4 hover:bg-blue cursor-pointer mx-4 bg-white relative hover:text-white">
           <font-awesome-icon
             icon="arrow-right"
             size="2x"
