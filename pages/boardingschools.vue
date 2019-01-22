@@ -8,23 +8,22 @@
       :component-title="bsch.roadmap.title"
       :component-loop="bsch.roadmap.block"/>
     <app-splash
-      :component-paragraph="home.splash.text"
-      :component-title="home.splash.title"/>
+      :component-paragraph="bsch.splash.text"
+      :component-title="bsch.splash.title"/>
     <app-accordion
-      :component-level="1"
+      :component-inner="true"
       :component-side-active="true"
       :component-side="home.contact.block"
-      :component-title="home.features.title"
-      :component-loop="home.features.block"/>
+      :component-title="bsch.schools.title"
+      :component-loop="bsch.schools.block"/>
     <app-testimonial
       :component-loop="home.testimonial"/>
     <app-comparison-table
       :component-title="bsch.comparison.title"
       :component-loop="bsch.comparison.block"/>
     <app-accordion
-      :component-level="2"
-      :component-title="home.features.title"
-      :component-loop="home.features.block"/>
+      :component-title="bsch.faq.title"
+      :component-loop="bsch.faq.block"/>
     <app-feature-blog
       :component-title="home.blog.title"
       :component-loop="home.blog.block"/>
