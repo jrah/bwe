@@ -14,6 +14,7 @@
               <font-awesome-icon
                 :icon="block.icon"
                 size="3x"
+                class="text-blue"
               />
               <h2 class="leading-tight text-lg my-3">{{ block.heading }}</h2>
               <p class="block sm:inline">{{ block.paragraph }}</p>
