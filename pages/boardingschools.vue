@@ -5,8 +5,8 @@
       :component-image="bsch.image"
       :component-title="bsch.title"/>
     <app-road-map
-      :component-title="home.features.title"
-      :component-loop="home.features.block"/>
+      :component-title="bsch.roadmap.title"
+      :component-loop="bsch.roadmap.block"/>
     <app-splash
       :component-paragraph="home.splash.text"
       :component-title="home.splash.title"/>
@@ -26,8 +26,8 @@
       :component-title="home.features.title"
       :component-loop="home.features.block"/>
     <app-feature-blog
-      :component-title="home.features.title"
-      :component-loop="home.features.block"/>
+      :component-title="home.blog.title"
+      :component-loop="home.blog.block"/>
   </div>
 </template>
 
