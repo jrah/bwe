@@ -1,7 +1,8 @@
 {
-  "title": "Lorem ipsum dolor sit.",
+  "title": "Enquire about our services",
   "intro": "Lorem ipsum dolor sit amet, consectetur.",
   "image_state": "static",
+  "mailto": true,
   "image": "/images/uploads/0c3a0830-extended.jpg",
   "splash": {
     "title": "Lorem ipsum dolor sit amet.",

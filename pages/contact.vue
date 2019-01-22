@@ -2,6 +2,7 @@
   <div class="bg-grey-lightest">
     <app-main-header
       :component-image="contact.image"
+      :component-mailto="contact.mailto"
       :component-paragraph="contact.intro"
       :component-title="contact.title"/>
     <app-splash
