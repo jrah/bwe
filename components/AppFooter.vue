@@ -42,6 +42,7 @@
               v-for="(icon, index) in site.social"
               :key="index"
               :href="icon.href"
+              target="_blank"
               :name=" '' + index ">
               <font-awesome-icon
                 :icon="['fab', icon.type]"
