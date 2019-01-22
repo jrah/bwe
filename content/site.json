@@ -49,6 +49,10 @@
   ],
   "nav": [
     {
+      "text": "Guardianship",
+      "href": "#",
+    },
+    {
       "text": "About Bright World",
       "href": "#",
       "content": [
