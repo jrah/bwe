@@ -1,5 +1,5 @@
 {
-  "title": "UK Boarding Schools.",
+  "title": "UK Boarding Schools",
   "intro": "Lorem ipsum dolor sit amet, consectetur.",
   "image": "/images/uploads/mikito-tateisi-333584-unsplash.jpg",
   "stages": {
@@ -15,6 +15,27 @@
       {
         "paragraph": "Lorem ipsum dolor.",
         "icon": "check"
+      }
+    ]
+  },
+  "roadmap": {
+    "title": "Boarding School Placement Process",
+    "type": "Font Awesome",
+    "block": [
+      {
+        "icon": "chalkboard-teacher",
+        "heading": "Enquiry",
+        "paragraph": "Contact us and provide us with basic information about the child and the school requirements, i.e which year are you applying for."
+      },
+      {
+        "icon": "university",
+        "heading": "School Placement Application",
+        "paragraph": "We will recommend the most suitable schools according to the information provided, and we will help to prepare and apply for the school placement."
+      },
+      {
+        "icon": "home",
+        "heading": "Test and offer",
+        "paragraph": "The majority of schools will require an entry test, once the child passes the test, an offer will be made, a deposit is then required to accept and secure the place."
       }
     ]
   },
