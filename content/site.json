@@ -41,7 +41,11 @@
     {
       "text": "Holiday Courses",
       "href": "#"
-    }
+    },
+    {
+      "text": "Guardianship",
+      "href": "#",
+    },
   ],
   "nav": [
     {
@@ -79,10 +83,6 @@
           "href": "https://www.brightworld.co.uk/guardianship/details.asp?page=british_education_system_43"
         }
       ]
-    },
-    {
-      "text": "Guardianship",
-      "href": "#",
     },
     {
       "text": "Holiday Courses",
