@@ -16,3 +16,9 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
+      - label: "Boarding School Page"
+        name: "boardingschools"
+        file: "content/boardingschools.json"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
