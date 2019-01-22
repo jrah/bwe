@@ -11,13 +11,13 @@
       :component-loop="home.services.block"/>
     <app-feature-grid
       :component-background-color="'grey-lightest'"
-      :component-title="home.services_alt.title"
-      :component-loop="home.services_alt.block"/>
-    <app-feature-grid
-      :component-background-color="'grey-lightest'"
       :component-size="5"
       :component-title="home.services_native_icons.title"
       :component-loop="home.services_native_icons.block"/>
+    <app-feature-grid
+      :component-background-color="'grey-lightest'"
+      :component-title="home.services_alt.title"
+      :component-loop="home.services_alt.block"/>
     <app-testimonial
       :component-loop="home.testimonial"/>
     <app-simple-selection
