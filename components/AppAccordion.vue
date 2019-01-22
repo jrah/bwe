@@ -25,15 +25,15 @@
               <div
                 slot="content">
                 <p
-                  v-if="ComponentLevel != 2"
+                  v-if="componentInner !== true"
                   class="p-4">{{ block.paragraph }}</p>
                 <div v-else>
                   <div
-                    v-for="(block, index) in componentLoop"
+                    v-for="(inner, index) in block.inner_block"
                     :key="index">
                     <a
                       href="#"
-                      class="no-underline text-lg p-4 block hover:bg-grey-light">{{ block.paragraph }}</a>
+                      class="no-underline text-lg p-4 block hover:bg-grey-light">{{ inner.heading }}</a>
                   </div>
                 </div>
               </div>
@@ -82,10 +82,10 @@ export default {
       required: false,
       default: () => []
     },
-    ComponentLevel: {
-      type: Number,
+    componentInner: {
+      type: Boolean,
       required: false,
-      default: 2
+      default: false
     }
   }
 }
@@ -93,6 +93,8 @@ export default {
 
 <style lang="scss">
 .component-badger-accordion {
+  min-width: 30rem;
+  max-width: 42rem;
   .badger-accordion-item {
     cursor: pointer;
     @apply pb-4;
