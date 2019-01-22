@@ -2,6 +2,60 @@
   "title": "UK Boarding Schools",
   "intro": "Lorem ipsum dolor sit amet, consectetur.",
   "image": "/images/uploads/mikito-tateisi-333584-unsplash.jpg",
+  "splash": {
+    "title": "Trusted guardianship since 2000",
+    "text": "AEGIS accredited and approved!"
+  },
+  "schools": {
+    "title": "Schools in England",
+    "block": [
+      {
+        "heading": "Schools in London",
+        "inner_block": [
+          {
+            "heading": "Dulwich College"
+          },
+          {
+            "heading": "Harrow School"
+          },
+          {
+            "heading": "Mill Hill School"
+          }
+        ]
+      },
+      {
+        "heading": "Schools in North Yorkshire",
+        "inner_block": [
+          {
+            "heading": "Ashville College"
+          },
+          {
+            "heading": "Ampleforth College"
+          },
+          {
+            "heading": "Bootham School"
+          },
+          {
+            "heading": "Catteral Hall"
+          }
+        ]
+      },
+      {
+        "heading": "Schools in Oxford",
+        "inner_block": [
+          {
+            "heading": "Abingdon"
+          },
+          {
+            "heading": "Bloxham School"
+          },
+          {
+            "heading": "Cokethorpe School"
+          }
+        ]
+      }
+    ]
+  },
   "stages": {
     "block": [
       {
@@ -39,47 +93,64 @@
       }
     ]
   },
-  "comparison": {
-    "title": "Lorem ipsum.",
+  "faq": {
+    "title": "Frequently Asked Questions",
     "block": [
       {
-        "title": "Lorem ipsum dolor.",
-        "meta": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero iure fugiat distinctio, repellat veniam aperiam error.",
-        "link": "Call to action",
+        "heading": "What is a 'guardian'?",
+        "paragraph": "An adult or company in the UK who is appointed by a parent to be their representative while their child studies here."
+      },
+      {
+        "heading": "Can you provide a UK host family?",
+        "paragraph": "An important part of our job is to find a host family for your child during holiday times when they have to leave school."
+      },
+      {
+        "heading": "What is the cost of your UK Guardianship Programme?",
+        "paragraph": "Termly service fees for guardianship are £620 per term including VAT. This includes all of our services and two visits to see your child in the first term. We usually ask for an expenses fund of £500 per term to cover homestay and travel which is fully refundable if not spent."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Fees",
+    "block": [
+      {
+        "title": "Termly Guardianship Services",
+        "meta": "Termly service fees for guardianship are £620 per term including VAT. This includes all of our services and at least two visits to see your child in the first term.",
+        "link": "Learn more",
         "loop": [
           {
-            "paragraph": "Lorem ipsum dolor.",
+            "paragraph": "Personal Care Manager",
             "icon": "check"
           },
           {
-            "paragraph": "Lorem ipsum dolor.",
+            "paragraph": "Dedicated Travel & Accommodation Manager",
             "icon": "check"
           },
           {
-            "paragraph": "Lorem ipsum dolor.",
+            "paragraph": "Safeguarding & Screening Service",
             "icon": "check"
           },
           {
-            "paragraph": "Lorem ipsum dolor.",
+            "paragraph": "24/7 Emergency Contact",
             "icon": "check"
           }
         ]
       },
       {
-        "title": "Lorem ipsum.",
-        "link": "Call to action",
-        "meta": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae nobis fugit nulla vitae, accusamus sed aliquid!",
+        "title": "Optional Services",
+        "link": "Learn more",
+        "meta": "Additional services at the parents' request",
         "loop": [
           {
-            "paragraph": "Lorem ipsum dolor.",
+            "paragraph": "Accommodation During Holiday Times",
             "icon": "check"
           },
           {
-            "paragraph": "Lorem ipsum dolor.",
+            "paragraph": "Language Counselling Services",
             "icon": "check"
           },
           {
-            "paragraph": "Lorem ipsum dolor.",
+            "paragraph": "Transport and Airport Services",
             "icon": "check"
           }
         ]

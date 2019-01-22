@@ -1,0 +1,18 @@
+{
+  "title": "Lorem ipsum dolor sit.",
+  "intro": "Lorem ipsum dolor sit amet, consectetur.",
+  "image": "/images/uploads/mikito-tateisi-333584-unsplash.jpg",
+  "faq": {
+    "title": "FAQ.",
+    "block": [
+      {
+        "heading": "Lorem ipsum.",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
+      },
+      {
+        "icon": "chalkboard-teacher",
+        "heading": "Lorem ipsum.",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione error perspiciatis, molestiae nobis."
+      },
+    ]
+}

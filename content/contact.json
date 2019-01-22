@@ -1,11 +1,10 @@
 {
   "title": "Enquire about our services",
-  "intro": "Lorem ipsum dolor sit amet, consectetur.",
   "image_state": "static",
   "mailto": true,
   "image": "/images/uploads/0c3a0830-extended.jpg",
   "splash": {
-    "title": "Lorem ipsum dolor sit amet.",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ab, ad dolorum nam numquam voluptatibus."
+    "title": "Contact Us",
+    "text": "Use the contact form below to leave us a message. One of our staff will get in touch within 48 hours."
   }
 }

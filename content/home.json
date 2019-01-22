@@ -90,7 +90,7 @@
     ]
   },
   "services_alt": {
-    "title": "Services",
+    "title": "Programmes",
     "block": [
       {
         "image": "/images/uploads/home.svg",
@@ -115,7 +115,7 @@
     ]
   },
   "services_native_icons": {
-    "title": "Services",
+    "title": "Programmes",
     "block": [
       {
         "image": "/images/uploads/female-student.svg",
