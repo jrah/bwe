@@ -1,4 +1,5 @@
 const pkg = require('./package')
+const site = require('./content/site')
 
 module.exports = {
   mode: 'universal',
@@ -7,7 +8,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: site.title,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
