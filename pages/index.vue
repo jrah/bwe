@@ -5,19 +5,15 @@
       :component-image="home.image"
       :component-form="false"
       :component-title="home.title"/>
-    <app-feature-block
-      :component-flex-item="'flex-1'"
-      :component-title="home.services.title"
-      :component-loop="home.services.block"/>
     <app-feature-grid
       :component-background-color="'grey-lightest'"
       :component-size="5"
       :component-title="home.services_native_icons.title"
       :component-loop="home.services_native_icons.block"/>
-    <app-feature-grid
-      :component-background-color="'grey-lightest'"
-      :component-title="home.services_alt.title"
-      :component-loop="home.services_alt.block"/>
+    <app-feature-block
+      :component-flex-item="'flex-1'"
+      :component-title="home.services.title"
+      :component-loop="home.services.block"/>
     <app-testimonial
       :component-loop="home.testimonial"/>
     <app-simple-selection
