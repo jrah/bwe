@@ -78,6 +78,11 @@ export default {
     componentLoop: {
       type: Array,
       required: true
+    },
+    componentLink: {
+      type: Array,
+      required: false,
+      default: () => []
     }
   }
 }
