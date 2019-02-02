@@ -1,7 +1,7 @@
 <template>
   <nav
     :class="{ isOpen: isOpen }"
-    class="flex items-center justify-end">
+    class="nav flex items-center justify-end">
     <!-- <span @click="closeNav(click)" class="pointer z-4">Close</span> -->
     <ul
       class="hidden list-reset l:flex justify-between items-center z-20 relative">
@@ -9,10 +9,10 @@
         v-for="(item, index) in site.nav"
         :key="index"
         :name=" '' + index "
-        class="dib mr-4 l:mr-6">
+        class="dib mr-4 l:mr-6 flex-auto">
         <a
           :href="item.href"
-          class="text-white hover:text-blue no-underline mb-4 text-lg">{{ item.text }}</a>
+          class="primary-link text-white no-underline mb-4 text-lg pb-1 border-transparent border-b-2 rounded-sm hover:border-blue">{{ item.text }}</a>
         <ul
           class="hidden list-reset z-20 relative">
           <li
@@ -22,14 +22,27 @@
             class="dib mr-6">
             <a
               :href="item.href"
-              class="text-white hover:text-blue no-underline text-lg mb-4">{{ item.text }}</a>
+              class="secondary-link text-white hover:text-blue no-underline text-lg mb-4">{{ item.text }}</a>
 
           </li>
         </ul>
       </li>
     </ul>
+
     <span
-      :class="{ isOpenToggle: isOpen }"
+      v-if="isOpen"
+      :class="{ isOpenToggleOpen: isOpen }"
+      class="cursor-pointer absolute pin-y pin-r p-4"
+      @click="toggleNav()">
+      <font-awesome-icon
+        icon="times"
+        size="2x"
+        color="black"
+      />
+    </span>
+    <span
+      v-else
+      :class="{ isOpenToggleOpen: isOpen }"
       class="cursor-pointer relative z-20"
       @click="toggleNav()">
       <font-awesome-icon
@@ -97,6 +110,50 @@ export default {
   position: relative;
   overflow: hidden;
   @apply bg-white;
+}
+
+.nav--fixed {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav {
+  transition: background-color 0.5s ease;
+  @apply bg-transparent;
+}
+
+.isOpen {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  @apply bg-white;
+  @apply text-black;
+  z-index: 50;
+  justify-content: center;
+  &ToggleOpen {
+    // display: none;
+  }
+  &ToggleClose {
+    display: block;
+  }
+  ul {
+    display: flex;
+    .primary-link {
+      @apply text-black;
+      @apply border-0;
+      @apply text-2xl;
+    }
+    a {
+      @apply text-blue;
+    }
+    ul {
+      display: block;
+    }
+  }
 }
 
 // .pin-important {
