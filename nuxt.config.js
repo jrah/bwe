@@ -9,9 +9,6 @@ module.exports = {
   */
   head: {
     title: site.title,
-    ['@nuxtjs/google-analytics', {
-  id: 'UA-12301-2'
-}],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
