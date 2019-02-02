@@ -4,7 +4,7 @@
       id="header"
       class="absolute w-full">
       <div
-        class="relative py-3 flex justify-between items-center container">
+        class="py-3 flex justify-between items-center container">
         <app-logo/>
         <app-navbar/>
       </div>
