@@ -9,6 +9,9 @@ module.exports = {
   */
   head: {
     title: site.title,
+    ['@nuxtjs/google-analytics', {
+  id: 'UA-12301-2'
+}],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -66,7 +69,10 @@ module.exports = {
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
-    'nuxt-validate'
+    'nuxt-validate',
+    ['@nuxtjs/google-analytics', {
+      id: ''
+  }]
   ],
   /*
   ** Axios module configuration
