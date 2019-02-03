@@ -31,21 +31,13 @@
       "href": "https://www.twitter.com/brightworldnews"
     }
   ],
-  "visible_nav": [
+  "appended_links": [
     {
-      "text": "Guardianship",
+      "text": "Policies",
       "href": "#"
     },
     {
-      "text": "Boarding Schools",
-      "href": "boardingschools"
-    },
-    {
-      "text": "Holiday Courses",
-      "href": "#"
-    },
-    {
-      "text": "Guardianship",
+      "text": "About BrightWorld",
       "href": "#"
     }
   ],
