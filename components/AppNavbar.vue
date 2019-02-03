@@ -74,11 +74,12 @@ export default {
       this.isOpen = !this.isOpen
       const header = document.querySelector('#header')
       const site = document.querySelector('.site')
-      if (site.contains('position-fixed')) {
-        document.querySelector('#header').classList.remove('position-fixed')
-      } else {
-        document.querySelector('#header').classList.add('position-fixed')
-      }
+      site.classList.toggle('position-fixed')
+      // if (site.contains('position-fixed')) {
+      //   document.querySelector('#header').classList.remove('position-fixed')
+      // } else {
+      //   document.querySelector('#header').classList.add('position-fixed')
+      // }
       // document.querySelector('header').classList.toggle('h-screen')
     }
   }
