@@ -4,25 +4,25 @@
     class="nav flex items-center justify-end">
     <!-- <span @click="closeNav(click)" class="pointer z-4">Close</span> -->
     <ul
-      class="hidden list-reset l:flex justify-between items-center z-20 relative">
+      class="hidden list-reset ns:flex flex-wrap justify-between items-center z-20 relative">
       <li
         v-for="(item, index) in site.nav"
         :key="index"
         :name=" '' + index "
-        class="dib mr-4 l:mr-6 flex-auto">
+        class="dib ns:mr-4 l:mr-6 flex-auto">
         <a
           :href="item.href"
           class="primary-link text-white no-underline mb-4 text-lg pb-1 border-transparent border-b-2 rounded-sm hover:border-blue">{{ item.text }}</a>
         <ul
-          class="hidden list-reset z-20 relative">
+          class="hidden list-reset z-20 relative my-4">
           <li
             v-for="(item, index) in site.nav"
             :key="index"
             :name=" '' + index "
-            class="dib mr-6">
+            class="dib">
             <a
               :href="item.href"
-              class="secondary-link text-white hover:text-blue no-underline text-lg mb-4">{{ item.text }}</a>
+              class="secondary-link text-white hover:text-blue no-underline text-lg">{{ item.text }}</a>
 
           </li>
         </ul>
@@ -134,6 +134,7 @@ export default {
   @apply text-black;
   z-index: 50;
   justify-content: center;
+  @apply p-4;
   &ToggleOpen {
     // display: none;
   }
