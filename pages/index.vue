@@ -56,6 +56,12 @@ export default {
   data() {
     return {
       home
+      // pageTitle: home.title
+    }
+  },
+  head() {
+    return {
+      title: 'BrightWorld ' + home.title
     }
   }
 }

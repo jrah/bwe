@@ -66,10 +66,7 @@ module.exports = {
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
-    'nuxt-validate',
-    ['@nuxtjs/google-analytics', {
-      id: ''
-  }]
+    'nuxt-validate'
   ],
   /*
   ** Axios module configuration
