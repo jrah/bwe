@@ -27,7 +27,7 @@
             <div v-if="componentMailto">
               <a
                 href="mailto:enquiries@brightworld.co.uk"
-                class="bg-navy-light hover:bg-navy text-grey-lightest font-bold py-4 px-4 rounded inline-flex items-center border-b-4 border-navy-dark">Contact Us</a>
+                class="no-underline bg-navy-light hover:bg-navy text-grey-lightest font-bold py-4 px-4 rounded inline-flex items-center border-b-4 border-navy-dark">Contact Us</a>
             </div>
             <div v-else-if="componentButton">
               <button class="bg-navy-light hover:bg-navy text-grey-lightest font-bold py-4 px-4 rounded inline-flex items-center border-b-4 border-navy-dark">Get Started</button>
