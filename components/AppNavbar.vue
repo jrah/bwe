@@ -19,7 +19,7 @@
             v-for="(item, index) in site.nav"
             :key="index"
             :name=" '' + index "
-            class="dib">
+            class="dib mb-1">
             <a
               :href="item.href"
               class="secondary-link text-white hover:text-blue no-underline text-lg">{{ item.text }}</a>
@@ -73,13 +73,13 @@ export default {
     toggleNav() {
       this.isOpen = !this.isOpen
       const header = document.querySelector('#header')
-      document.querySelector('.site').classList.toggle('position-fixed')
-      // if (header.classList.contains('container')) {
-      //   document.querySelector('#header').classList.remove('container')
-      // } else {
-      //   document.querySelector('#header').classList.add('container')
-      // }
-      document.querySelector('header').classList.toggle('h-screen')
+      const site = document.querySelector('.site')
+      if (site.contains('position-fixed')) {
+        document.querySelector('#header').classList.remove('position-fixed')
+      } else {
+        document.querySelector('#header').classList.add('position-fixed')
+      }
+      // document.querySelector('header').classList.toggle('h-screen')
     }
   }
 }
