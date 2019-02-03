@@ -1,0 +1,33 @@
+{
+  "title": "PDF Links or Blog",
+  "image_state": "static",
+  "image": "/images/uploads/eliott-reyna-748864-unsplash.jpg",
+  "paragraph": "These would be on separate pages. For instance brightworld.com/blog or brightworld.com/pdf",
+  "block": [
+      {
+        "heading": "Guardianship 24/7 : when good guardianship beats the clock",
+        "href": "/sample",
+        "type": "blog",
+        "image": "/images/uploads/eliott-reyna-748864-unsplash.jpg"
+      },
+      {
+        "heading": "Bright World Guardianships Ltd Fees and Costs",
+        "href": "/images/uploads/guardianship-fees.pdf",
+        "type": "pdf",
+        "image": "/images/uploads/eliott-reyna-748864-unsplash.jpg"
+      },
+      {
+        "heading": "Bright World Guardianships Ltd Fees and Costs",
+        "href": "/images/uploads/guardianship-fees.pdf",
+        "type": "pdf",
+        "image": "/images/uploads/eliott-reyna-748864-unsplash.jpg"
+      },
+      {
+        "heading": "Bright World Guardianships Ltd Fees and Costs",
+        "href": "/images/uploads/guardianship-fees.pdf",
+        "type": "pdf",
+        "image": "/images/uploads/eliott-reyna-748864-unsplash.jpg"
+
+      }
+    ]
+  }
