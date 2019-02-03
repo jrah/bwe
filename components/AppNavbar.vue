@@ -51,6 +51,11 @@
         color="white"
       />
     </span>
+    <ul class="hidden absolute pin-t pin-l p-4 list-reset">
+      <li><a 
+        href="#" 
+        class="no-underline">View Our Policies</a></li>
+    </ul>
   </nav>
 
 </template>
