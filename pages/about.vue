@@ -13,6 +13,9 @@
     <app-photo
       :component-loop="about.management.block"
       :component-title="about.management.title"/>
+    <app-splash
+      :component-title="about.splash.title"
+      :component-paragraph="about.splash.text"/>
   </div>
 </template>
 
