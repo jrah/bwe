@@ -61,7 +61,7 @@ export default {
   },
   head() {
     return {
-      title: 'BrightWorld ' + home.title
+      title: 'Bright World ' + home.title
     }
   }
 }
