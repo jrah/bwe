@@ -74,10 +74,12 @@ export default {
 
 <style lang="scss">
 .footer {
-  background: transparent;
-  overflow: hidden;
-  padding-top: 20%;
-  margin-top: -20%;
+  &-overflow {
+    background: transparent;
+    overflow: hidden;
+    padding-top: 20%;
+    margin-top: -20%;
+  }
   @apply bg-grey-light;
 }
 </style>
