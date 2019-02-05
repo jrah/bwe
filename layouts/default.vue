@@ -63,4 +63,8 @@ a {
   }
   @extend %mwc;
 }
+
+.object-cover {
+  object-fit: cover;
+}
 </style>
