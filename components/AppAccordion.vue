@@ -42,7 +42,7 @@
           <div
             v-if="componentSideActive === true"
             class="ns:ml-4 mt-4 ns:mt-0 px-4 py-2 ns:w-1/4 bg-grey-lighter">
-            <h2 class="ns:mb-6 text-lg">Have any other questions?</h2>
+            <span class="ns:mb-6 text-lg">Cant find your school?</span>
             <div
               v-for="(block, index) in componentSide"
               :key="index">
