@@ -17,6 +17,7 @@
           >
             <font-awesome-icon
               :icon="block.icon"
+              class="text-blue"
               size="4x"
             />
 
