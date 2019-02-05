@@ -1,10 +1,77 @@
 {
-  "title": "Team",
-  "block": [
-    {
-      "image": "",
-      "name": "Lana Foster",
-      "role": "Managing Director"
-    },
-  ]
+  "senior": {
+    "title": "Senior Management",
+    "block": [
+      {
+        "image": "https://www.brightworld.co.uk/content/Lana-mtt.jpg",
+        "heading": "Lana Foster",
+        "role": "Managing Director",
+        "paragraph": "Founder and Co-owner, Lana manages the daily running of the company. When not running the company, Lana enjoys manic spin classes and making bread.",
+        "email": "lana@brightworld.co.uk"
+      },
+      {
+        "image": "https://www.brightworld.co.uk/content/James-Foster-mtt.jpg",
+        "heading": "James Foster",
+        "role": "Commercial Director",
+        "email": "james@brightworld.co.uk",
+        "paragraph": "Co-owner, James manages all financial, IT and office service aspects of Bright World. When not paying the bills, James is a James Bond aficionado and a car enthusiast. "
+      },
+      {
+        "image": "https://www.brightworld.co.uk/content/charlotte-mtt.jpg",
+        "heading": "Charlotte Hamson",
+        "role": "Director of Sales & Marketing",
+        "email": "charlotte@brightworld.co.uk",
+        "paragraph": "On our Senior Management Team, Charlotte oversees all aspects of Sales and Marketing and promotions for the organisation. In her spare time, Charlotte enjoys singing and writing songs. She is also a big Andy Murray fan."
+
+      }
+    ]
+  },
+  "management": {
+    "title": "Management",
+    "block": [
+      {
+        "image": "https://www.brightworld.co.uk/content/Cory-Holden-mtt.jpg",
+        "heading": "Cory Holden",
+        "role": "Admissions & Regional Marketing Manager",
+        "paragraph": "Cory has worked with us for 7 years and manages our schools' placement service. As part of his role, Cory manages agent partnerships in Thailand, Japan, Hong Kong, Russia, Ukraine and the rest of Remainder of Europe non EEA, Kazakhstan and rest of Central Asia. This mean you may run in to Cory as he travels the world meeting our key partners, or in the UK, as he visits our partner boarding schools. When he isn't at work, Cory can be found gaming or watching Japanese movies. Cory is also learning to speak Japanese.",
+        "email": "lana@brightworld.co.uk"
+      },
+      {
+        "image": "https://www.brightworld.co.uk/content/su-warren-mtt.jpg",
+        "heading": "Su Warren",
+        "role": "Guardianship Care Manager",
+        "email": "su@brightworld.co.uk",
+        "paragraph": "Su is a senior member of The Guardianship Care team and offers parents a ‘one-stop shop’ for all matters relating to the programme. Su manages the department in terms of deadlines and customer care, to make sure the programme is running smoothly. When Spanish-speaker Su is not looking after her students, she can be found at home enjoying tapas."
+      },
+      {
+        "image": "https://www.brightworld.co.uk/content/Jenny-mtt.jpg",
+        "heading": "Jenny Rumble",
+        "role": "Safeguarding & Operations Manager",
+        "email": "charlotte@brightworld.co.uk",
+        "paragraph": "Jenny ensures that our safeguarding standards are fully met and manages the work of our Local Coordinator network. Outside of work, Jenny spends a lot of time building train tracks for her young sons and planning mini-breaks."
+      },
+      {
+        "image": "https://www.brightworld.co.uk/content/Lia-mtt.jpg",
+        "heading": "Lia Ferris",
+        "role": "Finance and Credit Control Assistant",
+        "email": "lia@brightworld.co.uk",
+        "paragraph": "Lia is in her fourth year with Bright World and works closely with James in our Finance Department making sure bills are paid. Lia, when not taking care of student accounts, enjoys performing in local musicals and singing jazz."
+
+      },
+      {
+        "image": "https://www.brightworld.co.uk/content/mtt-leanne-poole.jpg",
+        "heading": "Leanne Poole",
+        "role": "Accommodation and Local Coordinator Manager",
+        "email": "leanne@brightworld.co.uk",
+        "paragraph": "Leanne helps to manage our students' accommodation needs as well as managing our travel and transportation service, keeping our drivers trained and in check. When Leanne is not allocating host families and booking transfers, she enjoys walking her black labrador George, visiting the theatre and keeping fit."
+      },
+      {
+        "image": "https://www.brightworld.co.uk/content/Louis-mtt.jpg",
+        "heading": "Louis Allen",
+        "role": "Regional Marketing Manager",
+        "email": "louis@brightworld.co.uk",
+        "paragraph": "It is Louis' job to promote Bright World, and boost and maintain our sales via agent contact, and by managing our social media accounts, news feeds, and blogs. Louis is Regional Manager for Europe (EEA), Nigeria, UK, Middle East, Nigeria, Malaysia, Vietnam and remainder of the Far east, South Korea, Taiwan and South America and manages enquiries for our University Guardianship programme. Outside of work, his main passions are travel, music, and sport, and he can often be found in the gym, or on the football pitch."
+      }
+    ]
+  }
 }

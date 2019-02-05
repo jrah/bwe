@@ -1,0 +1,56 @@
+{
+  "services": {
+    "title": "Bright World at Brighton College",
+    "block": [
+      {
+        "image": "/images/uploads/female-student.svg",
+        "heading": "Your Local Coordinator",
+        "paragraph": "Storm lives near Brighton College. She will come and visit your child at school and can attend Parents evenings"
+      },
+      {
+        "image": "/images/uploads/male-student.svg",
+        "heading": "Your Guardianship care Manager",
+        "paragraph": "Su is your Head Office care contact for all administrational matters relating to your guardianship with"
+      },
+      {
+        "image": "/images/uploads/family.svg",
+        "heading": "Your Local Host Family",
+        "paragraph": "Our Host Family Selection Tool will allow you to browse our large database of carefully screened host families near Brighton College."
+      },
+      {
+        "image": "/images/uploads/family.svg",
+        "heading": "Your Bright World Driver",
+        "paragraph": "Your Bright World driver has been carefully screened and selected by us. You will receive Photo ID and contacts with your confirmations."
+      }
+    ]
+  },
+  "testimonial": [
+    {
+      "quote": "We are very happy with the efficient service that Bright World Guardianships offers to our international students and we have no hesitation in recommending them to our parents",
+      "author": "Brighton College Houseparent"
+    }
+  ],
+  "options": {
+    "title": "Bright World at Brighton College",
+    "block": [
+      {
+        "href": "#",
+        "heading": "Request a Quotation"
+      },
+      {
+        "href": "#",
+        "heading": "Access to Host Family Toolkit"
+      },
+      {
+        "href": "#",
+        "heading": "Register for guardianship"
+      }
+    ]
+  },
+  "infocta": {
+    "title": "Apply for a place at Brighton College",
+    "image": "https://sussex.muddystilettos.co.uk/wp-content/uploads/sites/11/2018/09/CROP-Brighton-College-Quad_1.jpg",
+    "button_text": "Apply for Brighton College",
+    "button_href": "#"
+  }
+}

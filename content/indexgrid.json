@@ -7,24 +7,28 @@
       {
         "heading": "Guardianship 24/7 : when good guardianship beats the clock",
         "href": "blog/post",
+        "color": "blue",
         "type": "blog",
         "image": "/images/uploads/eliott-reyna-748864-unsplash.jpg"
       },
       {
         "heading": "Bright World Guardianships Ltd Fees and Costs",
         "href": "/images/uploads/guardianship-fees.pdf",
+        "color": "blue",
         "type": "pdf",
         "image": "/images/uploads/eliott-reyna-748864-unsplash.jpg"
       },
       {
         "heading": "Bright World Guardianships Ltd Fees and Costs",
         "href": "/images/uploads/guardianship-fees.pdf",
+        "color": "orange",
         "type": "pdf",
         "image": "/images/uploads/eliott-reyna-748864-unsplash.jpg"
       },
       {
         "heading": "Bright World Guardianships Ltd Fees and Costs",
         "href": "/images/uploads/guardianship-fees.pdf",
+        "color": "blue",
         "type": "pdf",
         "image": "/images/uploads/eliott-reyna-748864-unsplash.jpg"
 

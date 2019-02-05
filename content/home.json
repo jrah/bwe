@@ -21,31 +21,6 @@
     "anchor": "Email us",
     "href": "mailto:team@diversitea.co"
   },
-  "collaborations": {
-    "title": "Recent collaboration",
-    "organisation": [
-      {
-        "name": "Kopan",
-        "image": "/images/uploads/logo-darkgreen.png",
-        "href": "https://kopan.dk"
-      },
-      {
-        "name": "Pura Panela",
-        "image": "/images/uploads/square-brochure-100x100px.png",
-        "href": "http://www.purapanela.com/"
-      },
-      {
-        "name": "A'dren",
-        "image": "/images/uploads/adren_logo-1.png",
-        "href": "http://withadren.com/"
-      },
-      {
-        "name": "Yoki Sheffield",
-        "image": "/images/uploads/yoki240.png",
-        "href": "https://yoki-sheffield.business.site/"
-      }
-    ]
-  },
   "title": "Find your perfect guardian",
   "image_state": "static",
   "image": "/images/uploads/0c3a0830-extended.jpg",
@@ -72,19 +47,25 @@
   },
   "services": {
     "title": "What We Do",
+    "type": "Font Awesome",
     "block": [
       {
-        "image": "/images/uploads/family.svg",
-        "heading": "Guardianship",
+        "icon": "home",
+        "heading": "Boarding School Guardianship",
         "paragraph": "Professional, first class guardianship service to overseas students in UK Boarding Schools and Colleges."
       },
       {
-        "image": "/images/uploads/buddy-grey2.svg",
+        "icon": "graduation-cap",
+        "heading": "University Guardianship",
+        "paragraph": "Professional, first class guardianship service to overseas students in UK Boarding Schools and Colleges."
+      },
+      {
+        "icon": "university",
         "heading": "Boarding Schools",
         "paragraph": "We offers expert Boarding School placement advice to overseas parents and agents."
       },
       {
-        "image": "/images/uploads/airplane.svg",
+        "icon": "sun",
         "heading": "Holiday Courses",
         "paragraph": "We offer a selection of holiday courses available at a range of UK Boarding Schools, Colleges and Centres."
       }
@@ -201,19 +182,19 @@
     "title": "Blog",
     "block": [
       {
-        "title": "How do guardians work with schools?",
+        "heading": "How do guardians work with schools?",
         "image": "https://tailwindcss.com/img/card-top.jpg",
         "paragraph": "Whether applying for guardianship as a parent, overseas agent or student. When it comes to schools and guardians, just like any relationship; partnership, compromise and flexibility are key. But how do both parties navigate what can be, at times a tricky relationship?",
         "href": "https://www.brightworld.co.uk/blog/post.asp?post=how_do_guardians_work_with_schools_76"
       },
       {
-        "title": "Why is my UK boarding school is asking me to appoint a guardian?",
+        "heading": "Why is my UK boarding school is asking me to appoint a guardian?",
         "image": "https://tailwindcss.com/img/card-top.jpg",
         "paragraph": "You’ve just arrived at school, you’re all set to start your first term and you are asked for the name of your nominated UK guardian. So, what is a guardian, and why is your school asking you to appoint one?",
         "href": "https://www.brightworld.co.uk/blog/post.asp?post=why_has_my_uk_boarding_school_asked_me_to_appoint_a_guardian_71"
       },
       {
-        "title": "What is a Prep School?",
+        "heading": "What is a Prep School?",
         "image": "https://tailwindcss.com/img/card-top.jpg",
         "paragraph": "Here at Bright World, we often get asked questions about the nature of prep schools, what purpose they serve, and why they should be considered. So, what exactly is a prep school?",
         "href": "https://www.brightworld.co.uk/blog/post.asp?post=what_are_prep_schools_57"
