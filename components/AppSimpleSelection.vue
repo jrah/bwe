@@ -9,7 +9,7 @@
           v-for="(block, index) in componentLoop"
           :key="index"
           :class="componentFlexItem"
-          class="flex justify-between simpleSelection w-full rounded p-4 hover:bg-blue cursor-pointer mx-4 bg-white relative hover:text-white">
+          class="simpleSelection relative w-full rounded p-4 hover:bg-blue cursor-pointer mx-4 bg-white relative hover:text-white">
           <h2
             v-if="block.heading"
             class="leading-tight text-2xl my-3 text-black">{{ block.heading }}</h2>
@@ -19,7 +19,7 @@
           <font-awesome-icon
             icon="arrow-right"
             size="2x"
-            class="m-2"
+            class="absolute pin-r pin-t m-2"
           />
         </a>
 
