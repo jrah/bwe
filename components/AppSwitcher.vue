@@ -23,7 +23,7 @@
         <span class="inline">/</span>
         <nuxt-link
           class="mx-2 text-left text-white no-underline"
-          to="/blog/index-alt">Blog Index Alt</nuxt-link>
+          to="/blog">Blog Index Alt</nuxt-link>
         <span class="inline">/</span>
         <nuxt-link
           class="mx-2 text-left text-white no-underline"
