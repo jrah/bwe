@@ -1,6 +1,6 @@
 <template lang="html">
-  <div class="fixed pin-b pin-x max-w-sm mx-auto z-50">
-    <div class="text-center py-4 lg:px-4 flex">
+  <div class="fixed pin-b pin-x max-w-lg mx-auto z-50">
+    <div class="text-center py-4 lg:px-4 flex justify-center">
       <div
         class="p-2 rounded bg-indigo-darker items-center text-indigo-lightest leading-none lg:rounded-full flex lg:inline-flex"
         role="alert">
@@ -16,6 +16,22 @@
         <nuxt-link
           class="mx-2 text-left text-white no-underline"
           to="/contact">Contact</nuxt-link>
+        <span class="inline">/</span>
+        <nuxt-link
+          class="mx-2 text-left text-white no-underline"
+          to="/blog/post">Blog Post</nuxt-link>
+        <span class="inline">/</span>
+        <nuxt-link
+          class="mx-2 text-left text-white no-underline"
+          to="/blog/index-alt">Blog Index Alt</nuxt-link>
+        <span class="inline">/</span>
+        <nuxt-link
+          class="mx-2 text-left text-white no-underline"
+          to="/about">About</nuxt-link>
+        <span class="inline">/</span>
+        <nuxt-link
+          class="mx-2 text-left text-white no-underline"
+          to="/profile">Profile</nuxt-link>
       </div>
     </div>
   </div>
