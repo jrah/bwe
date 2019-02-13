@@ -6,10 +6,11 @@
       :component-button="false"
       :component-form="false"
       :component-title="'Bright World at Brighton College'"/>
-    <app-feature-block
-      :component-flex-item="'flex-1'"
-      :component-title="'Bright World at Brighton College'"
-      :component-loop="profile.services.block"/>
+    <app-feature-grid
+      :component-background-color="'grey-lightest'"
+      :component-size="5"
+      :component-title="home.services_native_icons.title"
+      :component-loop="home.services_native_icons.block"/>
     <app-simple-selection
       :component-background-color="'grey-lightest'"
       :component-title="profile.options.title"
