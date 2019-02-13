@@ -5,11 +5,6 @@
       :component-image="home.image"
       :component-form="false"
       :component-title="home.title"/>
-    <app-feature-grid
-      :component-background-color="'grey-lightest'"
-      :component-size="5"
-      :component-title="home.services_native_icons.title"
-      :component-loop="home.services_native_icons.block"/>
     <app-feature-block
       :component-flex-item="'flex-1'"
       :component-title="home.services.title"
