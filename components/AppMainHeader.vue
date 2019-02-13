@@ -8,7 +8,7 @@
         <div class="text-white m:w-3/5 l:w-2/5">
           <h1
             v-if="componentTitle"
-            class="mt-0 f1 mb-6 font-bold text-4xl leading-tight">{{ componentTitle }}</h1>
+            class="mt-0 f1 mb-6 font-light text-4xl leading-tight">{{ componentTitle }}</h1>
           <p
             v-if="componentParagraph"
             class="mb-6 text-white leading-normal">{{ componentParagraph }}</p>
