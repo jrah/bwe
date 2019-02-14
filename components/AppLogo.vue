@@ -12,7 +12,7 @@
 <style lang="scss">
 .logo {
   &-size {
-    width: 10rem;
+    width: 8rem;
   }
 }
 </style>
