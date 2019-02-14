@@ -48,6 +48,12 @@
   "services": {
     "title": "What We Do",
     "type": "Font Awesome",
+    "link": [
+      {
+        "href": "#",
+        "text": "Call to action"
+      }
+    ],
     "block": [
       {
         "icon": "home",
@@ -142,7 +148,7 @@
     "link": [
       {
         "href": "#",
-        "text": "Call to action"
+        "text": "Register Now"
       }
     ],
     "block": [

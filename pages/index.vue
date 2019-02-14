@@ -7,6 +7,7 @@
       :component-title="home.title"/>
     <app-feature-block
       :component-flex-item="'flex-1'"
+      :component-link="home.services.link"
       :component-title="home.services.title"
       :component-loop="home.services.block"/>
     <app-testimonial
