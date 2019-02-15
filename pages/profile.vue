@@ -4,13 +4,11 @@
     <app-main-header
       :component-image="'https://source.unsplash.com/featured/?students'"
       :component-button="false"
-      :component-form="false"
-      :component-title="'Bright World at Brighton College'"/>
-    <app-feature-grid
-      :component-background-color="'grey-lightest'"
-      :component-size="5"
-      :component-title="home.services_native_icons.title"
-      :component-loop="home.services_native_icons.block"/>
+      :component-form="false"/>
+    <app-feature-block
+      :component-flex-item="'flex-1'"
+      :component-title="profile.services.title"
+      :component-loop="profile.services.block"/>
     <app-simple-selection
       :component-background-color="'grey-lightest'"
       :component-title="profile.options.title"
