@@ -66,7 +66,22 @@ module.exports = {
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
     '@nuxtjs/axios',
-    'nuxt-validate'
+    'nuxt-validate',
+    ['nuxt-i18n', {
+      locales: ['en', 'zh'],
+      defaultLocale: 'en',
+      vueI18n: {
+        fallbackLocale: 'en',
+        messages: {
+          en: {
+            welcome: 'Welcome'
+          },
+          zh: {
+            welcome: '欢迎'
+          }
+        }
+      }
+    }]
   ],
   /*
   ** Axios module configuration
